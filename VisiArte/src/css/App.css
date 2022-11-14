@@ -1,0 +1,23 @@
+
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: poppins-l;
+    src: url(../fonts/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: nasa;
+    src: url(../fonts/nasalization-rg.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: poppins;
+    transition: 200ms all;
+}
+body{
+    background-color: #FFFBF4;
+}

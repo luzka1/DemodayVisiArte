@@ -1,0 +1,86 @@
+nav div{
+    background-color: transparent;
+}
+.header{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6vh;
+    height: 10vh;
+    position: absolute;
+    left: 10%;
+    top: 8vh;
+    z-index: 1;
+}
+.conteudo{
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    padding: 1%;
+    gap: 10%;
+}
+.logotipo svg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    width: 7vh;
+}
+.logo{
+    height: auto;
+    display: flex;
+    align-items: center;
+    font-family: nasa;
+    font-size: 3.5vh;
+    background: rgb(240,96,36);
+    background: radial-gradient(circle, rgba(240,96,36,1) 0%, rgba(248,187,108,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 300% 300%;
+    animation: colors 5s ease infinite;
+    
+}
+@keyframes colors {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+.itens{
+    height: auto;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 2vh;
+    font-size: 2vh;
+}
+.itens:hover{
+    background-color: rgba(255, 255, 255, 0.24);
+    cursor: pointer;
+    border-radius: 2vh;
+}
+.btnlogin{
+    border-radius: 2.5vh;
+    width: 10%;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.3vh solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    
+}
+.btnlogin:hover{
+    background-color: #F16125;
+    cursor: pointer;
+    color: #fff;
+}
