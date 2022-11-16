@@ -22,3 +22,12 @@
 .ContainerLandingPage {
     background-color: #fffbf4;
 }
+
+a {
+    color: inherit;
+}
+
+ul,
+li {
+    list-style: none;
+}
