@@ -1,5 +1,5 @@
-import styles from '../css/Entrada.module.css';
-
+import styles from '../../css/landingpage/Entrada.module.css';
+import Moldura from '../../img/Moldura.png';
 
 function Entrada() {
     return (
@@ -9,10 +9,11 @@ function Entrada() {
                     <div className={styles.textBox}>
 
                         <h1>VisiArte</h1>
-                        <h3>Slogan é o caralho! Senta no meu piipi! </h3>
+                        <h3>Aqui vai ficar nosso magnífico slogan! </h3>
                     </div>
+                    <div className={styles.linhaExterna}></div>
                 </div>
-                <div className={styles.aa}></div>
+                
             </section>
         </>
     )

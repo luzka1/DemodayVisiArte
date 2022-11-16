@@ -1,17 +1,12 @@
-
 import './css/App.css';
-import Header from './components/Header';
-import Entrada from './components/Entrada';
-import HeaderRede from './components/HeaderRede';
+import './pages/LandingPage'
+import LandingPage from './pages/LandingPage';
+
 
 function App() {
   return (
     <>
-      <body>
-      <Header />
-      <Entrada />
-      </body>
-
+      <LandingPage />
     </>
   );
 }
