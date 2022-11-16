@@ -1,14 +1,22 @@
-import './css/App.css';
-import './pages/LandingPage'
-import LandingPage from './pages/LandingPage';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./css/App.css";
 
+// PAGINAS -------------------------------
+
+import LandingPage from "./pages/LandingPage";
+
+// -------------------------------
 
 function App() {
-  return (
-    <>
-      <LandingPage />
-    </>
-  );
+    return (
+        <BrowserRouter>
+            <Routes>
+                {/* Rota para a landing page */}
+                <Route path="/" element={<LandingPage />} />
+                {/* ------------------------ */}
+            </Routes>
+        </BrowserRouter>
+    );
 }
 
 export default App;
