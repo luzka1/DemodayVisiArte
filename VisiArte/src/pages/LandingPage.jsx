@@ -1,11 +1,11 @@
 // import "./css/App.css";
-import Header from "../components/landingpage/Header";
-import Entrada from "../components/landingpage/Entrada";
-import SliderPrin from "../components/landingpage/SliderPrin";
-import ComoFunc from "../components/landingpage/ComoFunc";
-import SobreNos from "../components/landingpage/SobreNos";
-import TodaParte from "../components/landingpage/TodaParte";
-import APlataforma from "../components/landingpage/APlataforma";
+import Header from "../components/landingpage/header/Header";
+import Entrada from "../components/landingpage/entrada/Entrada";
+import SliderPrin from "../components/landingpage/sliderPrin/SliderPrin";
+import ComoFunc from "../components/landingpage/comoFunc/ComoFunc";
+import SobreNos from "../components/landingpage/sobreNos/SobreNos";
+import TodaParte from "../components/landingpage/todaParte/TodaParte";
+import APlataforma from "../components/landingpage/aPlataforma/APlataforma";
 import { motion } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
 

@@ -1,31 +1,30 @@
-.container{
-    display:flex;
+.container {
+    display: flex;
     height: 90vh;
     margin-top: 3%;
 }
-.comoFunc{
+.comoFunc {
     display: grid;
-    grid-template-columns:  4fr 5fr;
+    grid-template-columns: 4fr 5fr;
 }
-.imgCF{
+.imgCF {
     width: 100%;
     background-color: aquamarine;
-    background-image: url(../../img/pixadora.png);
+    background-image: url(../../../img/pixadora.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
 }
-.textoCF{
-    background-color: #70DBE5;
+.textoCF {
+    background-color: #70dbe5;
     display: flex;
     flex-direction: column;
-    
 }
-.titCF{
+.titCF {
     display: flex;
     align-items: center;
     justify-content: center;
-    color:#064550;
+    color: #064550;
     font-size: 4vh;
     width: 50%;
     padding: 5% 0 5% 0;
@@ -33,25 +32,24 @@
     text-align: center;
     font-weight: bolder;
 }
-.contCF { 
+.contCF {
     font-size: 4vh;
     color: #fff;
     width: 60%;
     margin: 0 auto;
     text-align: left;
 }
-.laranja{
-    color:#F06024;
+.laranja {
+    color: #f06024;
 }
-.linhaExterna{
+.linhaExterna {
     position: absolute;
     margin-top: -0.5%;
     width: 51%;
     left: 1%;
     height: 92vh;
-    
 }
-.linhaExterna img{
+.linhaExterna img {
     width: 87%;
     height: 101%;
 }

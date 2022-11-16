@@ -2,15 +2,15 @@
 
 @font-face {
     font-family: poppins;
-    src: url(../fonts/Poppins-Medium.ttf);
+    src: url(./fonts/Poppins-Medium.ttf);
 }
 @font-face {
     font-family: poppins-l;
-    src: url(../fonts/Poppins-Light.ttf);
+    src: url(./fonts/Poppins-Light.ttf);
 }
 @font-face {
     font-family: nasa;
-    src: url(../fonts/nasalization-rg.otf);
+    src: url(./fonts/nasalization-rg.otf);
 }
 * {
     margin: 0;

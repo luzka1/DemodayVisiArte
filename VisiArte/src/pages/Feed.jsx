@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../components/plataforma/Header";
+import Header from "../components/plataforma/reutilizavel/header/Header";
 
 function Feed() {
     return (
