@@ -18,9 +18,15 @@
     border: 0;
     font-family: poppins;
     transition: 200ms all;
+    box-sizing: border-box;
 }
+
+body {
+    background-color: #efefef;
+}
+
 .ContainerLandingPage {
-    background-color: #fffbf4;
+    background-color: #fffbf4 !important;
 }
 
 a {
