@@ -1,0 +1,9 @@
+.postagens {
+    width: 52vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 5rem;
+}

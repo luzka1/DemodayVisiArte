@@ -18,9 +18,15 @@
     border: 0;
     font-family: poppins;
     transition: 200ms all;
+    box-sizing: border-box;
 }
+
+body {
+    background-color: #efefef;
+}
+
 .ContainerLandingPage {
-    background-color: #fffbf4;
+    background-color: #fffbf4 !important;
 }
 
 a {
@@ -32,3 +38,23 @@ li {
     list-style: none;
 }
 
+input:focus {
+    border: 0;
+    outline: 0;
+}
+
+/* Scroll */
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #70dbe5;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
