@@ -1,0 +1,33 @@
+:root{
+    --corBranca: #F7F7EE;
+}
+body{
+    background-color: var(--corBranca);
+    background-image: url("../../../../img/bg.jpg");
+}
+main{
+    width: 90vw;
+    margin: auto;
+    height: 99vh;
+    background-color: #14101ff3;
+    backdrop-filter: blur(0.5rem);
+    display: flex;
+    position: relative;
+    
+}
+@media (min-width: 1000px) and (max-width:1500px){
+    main{
+        width: 100%;
+    }
+}
+@media (min-width: 450px) and (max-width:999px){
+    main{
+        width: 100%;
+    }
+}
+@media (min-width: 0px) and (max-width:449px){
+    main{
+        width: 100%;
+    }
+}
+
