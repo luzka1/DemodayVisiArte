@@ -1,0 +1,36 @@
+.sobreMim {
+    width: 20vw;
+    border-radius: 10px;
+    background-color: #f8bb6c;
+    height: fit-content;
+}
+
+.sobreMim > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: -50px;
+    gap: 0.5em;
+    padding-bottom: 25px;
+}
+
+.sobreMim p {
+    font-size: 16px;
+    padding: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.sobreMim img {
+    max-width: 100%;
+}
+.sobreMim > img {
+    width: 100%;
+}
+
+.foto_perfil {
+    border-radius: 50%;
+    border: 5px solid #29c7f0;
+}
