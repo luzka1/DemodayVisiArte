@@ -5,6 +5,8 @@ import "./App.css";
 
 import LandingPage from "./pages/LandingPage";
 import Feed from "./pages/Feed";
+import FazerLogin from "./pages/FazerLogin";
+import FazerCadastro from "./pages/FazerCadastro";
 
 // -------------------------------
 
@@ -14,6 +16,8 @@ function App() {
             <Routes>
                 <Route path="/" element={<LandingPage />} />
                 <Route path="/feed" element={<Feed />} />
+                <Route path="/FazerLogin" element={<FazerLogin />} />
+                <Route path="/FazerCadastro" element={<FazerCadastro />} />
             </Routes>
         </BrowserRouter>
     );

@@ -1,0 +1,102 @@
+.fundo{
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.fundo img{
+    width: 100%;
+    height: 100%;
+}
+
+.DivMeio{
+    position: absolute;
+    top: 0;
+    left: 30%;
+    height: 100vh;
+    width: 40vw;
+}
+
+.Logo{
+    padding-top: 20px;
+    width: 100%;
+    height: 17vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.VisiArte{
+    font-family: nasa;
+    font-size: 10vh;
+    background: rgb(248,187,108,1);
+    background: radial-gradient(circle, rgba(248,187,108,1) 0%, rgba(240,96,36,1) 110%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 300% 300%;
+    padding-top: 2%;
+}
+
+.MeioBaixo{
+    width: 100%;
+    height: 75%;
+    margin: 4%;
+    background-color: rgba(255, 255, 255, 0.89);
+    backdrop-filter: blur(1rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.TextoIniciar{
+    font-size: 42px;
+    text-align: center;
+    padding-top: 8%;
+}
+.Iniciando{
+    width: 90%;
+    height: auto;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Iniciando input{
+    font-size: 17px;
+    padding: 1rem;
+    margin-top: 1.3rem;
+    background-color: #CBCBCB;
+    color: #000;
+}
+
+.Nome, .Senha{
+    width:70%;
+}
+
+.Manter{
+    padding: 1rem 0 1.8rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 63%;
+}
+
+.Manter label{
+    padding-left: 0.5rem;
+}
+
+.Acessar, .EsqSenha, .CrieConta{
+    text-decoration: none;
+}
+
+.EsqSenha{
+    padding-top: 1rem;
+}
+
+.Acessar{
+    font-size: 2rem;
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 0.3rem 1rem;
+}
+
