@@ -8,6 +8,10 @@
     gap: 1.5rem;
     border-radius: 10px;
     height: fit-content;
+    position: fixed;
+    right: 10px;
+    z-index: 2;
+    margin-top: 5rem;
 }
 
 .sugestoes h5 {

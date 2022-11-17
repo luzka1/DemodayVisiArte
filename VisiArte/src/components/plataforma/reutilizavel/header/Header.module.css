@@ -5,6 +5,9 @@
     align-items: center;
     padding: 1rem 4rem;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 2;
 }
 
 .header .logo {

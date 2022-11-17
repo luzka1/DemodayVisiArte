@@ -37,3 +37,24 @@ ul,
 li {
     list-style: none;
 }
+
+input:focus {
+    border: 0;
+    outline: 0;
+}
+
+/* Scroll */
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #70dbe5;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
