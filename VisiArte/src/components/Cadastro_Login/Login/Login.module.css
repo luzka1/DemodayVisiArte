@@ -85,18 +85,78 @@
     padding-left: 0.5rem;
 }
 
-.Acessar, .EsqSenha, .CrieConta{
+.Acessar{
     text-decoration: none;
+    color:#222
 }
 
-.EsqSenha{
-    padding-top: 1rem;
+.EsqSenha, .CrieConta{
+    text-decoration: none;
+    color:#333;
 }
 
 .Acessar{
     font-size: 2rem;
-    border: 1px solid #000;
+    border: 2px solid #49B3BC;
     border-radius: 20px;
     padding: 0.3rem 1rem;
 }
+.setaAcc{
+    margin-left:10px;
+}
 
+.Acessar span{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.Acessar:hover{
+    background-color: #49B3BC;
+    color: #FFF;
+    transition: 200ms all;
+}
+
+.EsqSenha{
+    padding-top: 1rem;
+    position: relative;
+}
+
+.EsqSenha:after{
+    content: "";
+    position: absolute;
+    background-color: #F06024;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -1px;
+    transition: 0.3s;
+}
+.EsqSenha:hover{
+    color: #000;
+}
+
+.EsqSenha:hover:after{
+    width: 100%;
+}
+
+.CrieConta{
+    position: relative;
+}
+
+.CrieConta:after{
+    content: "";
+    position: absolute;
+    background-color: #F06024;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -1px;
+    transition: 0.3s;
+}
+.CrieConta:hover{
+    color: #000;
+}
+
+.CrieConta:hover:after{
+    width: 100%;
+}

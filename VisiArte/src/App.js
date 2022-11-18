@@ -16,7 +16,7 @@ function App() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<LandingPage />} /> 
-                 <Route path="/feed" element={<Feed />} /> 
+                <Route path="/feed" element={<Feed />} /> 
                 <Route path="/chat" element={<Chat />} />
                 <Route path="/FazerLogin" element={<FazerLogin />} />
                 <Route path="/FazerCadastro" element={<FazerCadastro />} />
