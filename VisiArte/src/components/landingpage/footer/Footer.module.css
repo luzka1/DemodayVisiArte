@@ -1,0 +1,68 @@
+.container{
+    background-color: #062738;
+}
+.top{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    color: #fff;
+    font-size: 2vh;
+    height: 50%;
+    padding: 2% 0 1% 0;
+    align-items: center;
+    justify-content: space-around ;
+    border-bottom: solid 0.1vh #fff;
+}
+.items{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2vh;
+}
+.item{
+    padding: 2vh;
+    border-radius: 1vh;
+    cursor: pointer;
+}
+.item:hover{
+    background-color: rgba(255, 255, 255, 0.192);
+}
+.logo{
+    height: auto;
+    display: flex;
+    align-items: center;
+    font-family: nasa;
+    font-size: 3.5vh;
+    background: rgb(240,96,36);
+    background: radial-gradient(circle, rgba(240,96,36,1) 0%, rgba(248,187,108,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 300% 300%;
+    animation: colors 5s ease infinite;
+}
+.logo svg{
+    width: 7vh;
+    height: 7vh;
+}
+.redesocial{
+    padding: 0.5%;
+    cursor: pointer;
+    width: 5%;
+    height: auto;
+}
+.redesocial img{
+    width: 80%;
+}
+.tt{
+    height: 100%;
+}
+.bottom{
+    color: #fff;
+    text-align: center;
+    padding: 2% 0 5% 0;
+    line-height: 3vh;
+}
+.contato{
+    font-family: poppins-l;
+    font-size: large;
+}
