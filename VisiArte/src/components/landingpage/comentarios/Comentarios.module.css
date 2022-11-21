@@ -1,0 +1,72 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#064550;
+    font-size: 4vh;
+
+}
+
+.comentarios{
+    display:flex;
+    padding: 5%;
+    gap: 1%;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+.box{
+    box-shadow: 0 0 2vh 0 rgba(0, 0, 0, 0.349);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+    background-color: #fff;
+    
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10%;
+}
+.foto1,.foto2,.foto3{
+    background-color: #064550;
+    width: 80%;
+    height: 25vh;
+    clip-path: circle();
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+    
+}
+
+.foto1{
+    background-image: url('../../../img/kae.png');
+
+}
+.foto2{
+    background-image: url('../../../img/bia.png');
+}
+.foto3{
+    background-image: url('../../../img/felipe.png');
+}
+
+.top text{
+    font-size: 3vh;
+    color: #064550;
+    padding: 1% 0 1% 0;
+}
+.corpo{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.8vh;
+    height: 30vh;
+}

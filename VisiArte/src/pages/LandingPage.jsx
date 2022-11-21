@@ -6,6 +6,8 @@ import ComoFunc from "../components/landingpage/comoFunc/ComoFunc";
 import SobreNos from "../components/landingpage/sobreNos/SobreNos";
 import TodaParte from "../components/landingpage/todaParte/TodaParte";
 import APlataforma from "../components/landingpage/aPlataforma/APlataforma";
+import Comentarios from "../components/landingpage/comentarios/Comentarios";
+import Footer from "../components/landingpage/footer/Footer";
 import { motion } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
 
@@ -19,6 +21,8 @@ function LandingPage() {
             <SobreNos />
             <TodaParte />
             <APlataforma />
+            <Comentarios />
+            <Footer />
         </div>
     );
 }
