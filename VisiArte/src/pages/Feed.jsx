@@ -4,10 +4,10 @@ import ConteudoFeed from "../components/plataforma/feed/ConteudoFeed";
 
 function Feed() {
     return (
-        <>
+        <div className="container-plataforma">
             <Header />
             <ConteudoFeed />
-        </>
+        </div>
     );
 }
 
