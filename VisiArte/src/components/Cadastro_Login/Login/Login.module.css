@@ -7,6 +7,7 @@
 .fundo img{
     width: 100%;
     height: 100%;
+    /* rotate: 180deg; */
 }
 
 .DivMeio{
@@ -41,7 +42,7 @@
     width: 100%;
     height: 75%;
     margin: 4%;
-    background-color: rgba(255, 255, 255, 0.89);
+    background-color: rgba(255, 255, 255, 0.821);
     backdrop-filter: blur(1rem);
     display: flex;
     flex-direction: column;
