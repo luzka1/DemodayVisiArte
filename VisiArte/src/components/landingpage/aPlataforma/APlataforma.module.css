@@ -28,9 +28,12 @@
     gap: 5vw;
 }
 .texto {
-    height: 80%;
+    height: 80vh;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+}
+.texto text{
+    color:#064550;
 }
 .img1,
 .img2,

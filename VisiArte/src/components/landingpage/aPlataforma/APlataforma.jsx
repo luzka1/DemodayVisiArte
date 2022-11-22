@@ -10,14 +10,11 @@ function APlataforma() {
 
                 <div className={styles.conteudo}>
                     <div className={styles.texto}>
-                        <text>
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and
-                            scrambled it to make a type specimen book. It has
-                            survived not only five centuries, but{" "}
-                        </text>
+                        <p>
+                            Venha participar da rede social que foi desenvolvida para <text>todo tipo de Arte e Artista</text>.
+                            Temos a missão de ser uma plataforma simples e intuitiva para você artista que quer <text>espalhar conhecimento</text>,
+                            ou você que quer <text>aprender</text> novas técnicas e conceitos de arte.{" "}
+                        </p>
                     </div>
                     <div className={styles.images}>
                         <div className={styles.img1}></div>

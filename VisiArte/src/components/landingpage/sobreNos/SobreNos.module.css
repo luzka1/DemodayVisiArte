@@ -15,14 +15,11 @@
     line-height: 5vh;
 }
 .SBtit h1 {
-    font-size: 4vh;
-}
-.Nos {
-    font-size: 5.5vh;
+    font-size: 5vh;
 }
 .subtit {
-    font-size: 4vh;
-    font-family: poppins-l;
+    font-size: 5vh;
+    font-family: poppins;
 }
 .laranja {
     color: #f06024;
@@ -41,6 +38,15 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+}
+.linhaExterna{
+    position: absolute;
+    width: 39vw;
+    height: 50vh;
+    left: 7%;
+    margin-top: 2%;
+    margin-left: -2%;
+    border:  0.8vh solid #f8bb6c;
 }
 .titulo {
     display: flex;

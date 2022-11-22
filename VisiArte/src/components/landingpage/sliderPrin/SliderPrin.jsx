@@ -1,11 +1,14 @@
 import styles from "./SliderPrin.module.css";
-import { motion } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
 import imgCarousel from "../../../imgCarousel";
 
 function SliderPrin() {
     const [width, setWidth] = useState(0);
     const carousel = useRef();
+
+    const ref = useRef(null);
+    const isInView = useInView(ref, { once: true });
 
     useEffect(() => {
         setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
@@ -14,10 +17,18 @@ function SliderPrin() {
     return (
         <>
             <section className={styles.container}>
-                <motion.div className={styles.titulo}>
+                <motion.div 
+                className={styles.titulo}
+                ref={ref}
+                style={{
+                    transform: isInView ? "none" : "translateY(-20vh)",
+                    opacity: isInView ? 1 : 0,
+                    transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+                  }}>
                     {" "}
                     <h1>Fique por dentro do que tratamos no nosso site</h1>
                 </motion.div>
+
                 <motion.div className={styles.conteudoo}>
                     <motion.div ref={carousel} className={styles.carousel}>
                         <motion.div

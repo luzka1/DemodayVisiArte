@@ -44,12 +44,9 @@
 }
 .linhaExterna {
     position: absolute;
-    margin-top: -0.5%;
-    width: 51%;
-    left: 1%;
-    height: 92vh;
+    width: 45%;
+    height: 90%;
+    margin: 1.5%;
+    border:  0.8vh solid #f8bb6c;
 }
-.linhaExterna img {
-    width: 87%;
-    height: 101%;
-}
+

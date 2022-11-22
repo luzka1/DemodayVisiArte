@@ -1,20 +1,41 @@
 import styles from "./ComoFunc.module.css";
-import Moldura from "../../../img/Moldura.png";
+import { useRef } from "react"; 
+import { motion, useInView } from "framer-motion";
 
 function ComoFunc() {
+
+    const ref = useRef(null);
+
+    const isInView = useInView(ref, { once: true });
+
     return (
         <>
             <section className={styles.container}>
                 <div className={styles.comoFunc}>
-                    <div className={styles.linhaExterna}>
-                        <img src={Moldura} />
-                    </div>
+                    <div className={styles.linhaExterna} />
+
                     <div className={styles.imgCF}></div>
                     <div className={styles.textoCF}>
-                        <div className={styles.titCF}>
+                        <motion.div className={styles.titCF}
+                            ref={ref}
+                            style={{
+                                transform: isInView ? "none" : "translateX(10vh)",
+                                opacity: isInView ? 1 : 0,
+                                transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+                            }} >
+
                             <h1>Como Funcionamos:</h1>
-                        </div>
-                        <div className={styles.contCF}>
+
+                        </motion.div>
+
+                        <motion.div className={styles.contCF}
+                            ref={ref}
+                            style={{
+                                transform: isInView ? "none" : "translateX(20vh)",
+                                opacity: isInView ? 1 : 0,
+                                transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+                            }} >
+                        
                             <text>
                                 Somos uma plataforma voltada a adjuar os{" "}
                                 <text className={styles.laranja}>artistas</text>{" "}
@@ -28,7 +49,7 @@ function ComoFunc() {
                                 </text>{" "}
                                 para cursos.
                             </text>
-                        </div>
+                        </motion.div>
                     </div>
                 </div>
             </section>
