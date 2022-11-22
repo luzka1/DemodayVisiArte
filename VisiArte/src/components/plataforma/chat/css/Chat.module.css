@@ -1,11 +1,15 @@
-:root{
-    --corBranca: #F7F7EE;
+:root {
+    --corBranca: #f7f7ee;
 }
-body{
+body {
     background-color: var(--corBranca);
+<<<<<<< HEAD
     
+=======
+    /* background-image: url("../../../../img/bg.jpg"); */
+>>>>>>> cabde46e467f6bde90e9bbd67db51a11b9781689
 }
-main{
+main {
     width: 90vw;
     margin: auto;
     height: 99vh;
@@ -13,21 +17,19 @@ main{
     backdrop-filter: blur(0.5rem);
     display: flex;
     position: relative;
-    
 }
-@media (min-width: 1000px) and (max-width:1500px){
-    main{
+@media (min-width: 1000px) and (max-width: 1500px) {
+    main {
         width: 100%;
     }
 }
-@media (min-width: 450px) and (max-width:999px){
-    main{
+@media (min-width: 450px) and (max-width: 999px) {
+    main {
         width: 100%;
     }
 }
-@media (min-width: 0px) and (max-width:449px){
-    main{
+@media (min-width: 0px) and (max-width: 449px) {
+    main {
         width: 100%;
     }
 }
-

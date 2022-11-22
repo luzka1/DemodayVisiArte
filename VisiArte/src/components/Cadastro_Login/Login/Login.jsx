@@ -5,6 +5,7 @@ import { Link } from "react-router-dom"
 function Login() {
     return (
         <section className={Styles.fundo}>
+            <img src={Fundo} alt="fundo" />
 
             <div className={Styles.DivMeio}>
 
@@ -37,19 +38,13 @@ function Login() {
 
                     <Link to="/feed" className={Styles.Acessar}>Acessar
                     <span>&#x276F;</span>
-                        {/* <svg width="24" height="20" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg" className={Styles.setaAcc}>
-                            <path d="M0 21.3397L14.4822 12.0905L0 2.84126L4.45849 0L23.4308 12.0905L4.45849 24.1809L0 21.3397Z" fill="black" />
-                        </svg> */}
                     </Link>
 
                     <Link to="/" className={Styles.EsqSenha}>Esqueceu a senha?</Link>
 
                     <Link to="/" className={Styles.CrieConta}>Criar conta</Link>
-
                 </div>
-
             </div>
-            <img src={Fundo} alt="fundo" />
         </section>
     )
 }

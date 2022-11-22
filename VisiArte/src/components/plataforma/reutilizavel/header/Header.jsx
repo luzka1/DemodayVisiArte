@@ -37,7 +37,7 @@ function Header() {
                     <img src={icone_publicar} alt="" />
                 </Link>
 
-                <Link to="/feed">
+                <Link to="/chat">
                     <img src={icone_chat} alt="" />
                 </Link>
 

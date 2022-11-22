@@ -1,5 +1,5 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // PAGINAS -------------------------------
 
@@ -15,8 +15,8 @@ function App() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<LandingPage />} /> 
-                <Route path="/feed" element={<Feed />} /> 
+                <Route path="/" element={<LandingPage />} />
+                <Route path="/feed" element={<Feed />} />
                 <Route path="/chat" element={<Chat />} />
                 <Route path="/FazerLogin" element={<FazerLogin />} />
                 <Route path="/FazerCadastro" element={<FazerCadastro />} />
