@@ -37,7 +37,7 @@
     background-image: url(../../../img/sobrenos.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .linhaExterna{
     position: absolute;

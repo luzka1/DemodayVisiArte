@@ -19,10 +19,9 @@ function Amigos() { //[2] - mude o nome do component para ser exportado.
             <p>online</p>
 
           </div>
-          {/* =============================================================== */}
+
         </div>
-        {/* ================================================ */}
-        {/* ================ User ========================== */}
+
         <div className={styles.user}>
           {/* ============ PF> profile picture || nome do user ============= */}
           <div className={styles.userPhoto}>
@@ -33,9 +32,9 @@ function Amigos() { //[2] - mude o nome do component para ser exportado.
             <p>online</p>
 
           </div>
-          {/* =============================================================== */}
+
         </div>
-        {/* ================================================ */}
+
         {/* ================ User ========================== */}
         <div className={styles.user}>
           {/* ============ PF> profile picture || nome do user ============= */}
@@ -47,9 +46,9 @@ function Amigos() { //[2] - mude o nome do component para ser exportado.
             <p>online</p>
 
           </div>
-          {/* =============================================================== */}
+
         </div>
-        {/* ================================================ */}
+
         {/* ================ User ========================== */}
         <div className={styles.user}>
           {/* ============ PF> profile picture || nome do user ============= */}
@@ -61,9 +60,9 @@ function Amigos() { //[2] - mude o nome do component para ser exportado.
             <p>online</p>
 
           </div>
-          {/* =============================================================== */}
+
         </div>
-        {/* ================================================ */}
+
         {/* ================ User ========================== */}
         <div className={styles.user}>
           {/* ============ PF> profile picture || nome do user ============= */}
@@ -71,13 +70,13 @@ function Amigos() { //[2] - mude o nome do component para ser exportado.
             <div className={styles.userPF}></div>
           </div>
           <div className={styles.userSt}>
-            <h3>Vicenci Vitória</h3>
+            <h3>Vicencia Vitória</h3>
             <p>online</p>
 
           </div>
-          {/* =============================================================== */}
+
         </div>
-        {/* ================================================ */}
+ 
 
 
 
@@ -87,4 +86,4 @@ function Amigos() { //[2] - mude o nome do component para ser exportado.
   )
 }
 
-export default Amigos //[3] - O nome do export deve ter o mesmo no passo 2!!
+export default Amigos ; //[3] - O nome do export deve ter o mesmo no passo 2!!

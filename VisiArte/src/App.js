@@ -8,6 +8,7 @@ import Feed from "./pages/Feed";
 import Chat from "./pages/Chat";
 import FazerLogin from "./pages/FazerLogin";
 import FazerCadastro from "./pages/FazerCadastro";
+import SobreNos from "./pages/SobreNos";
 
 // -------------------------------
 
@@ -20,6 +21,7 @@ function App() {
                 <Route path="/chat" element={<Chat />} />
                 <Route path="/FazerLogin" element={<FazerLogin />} />
                 <Route path="/FazerCadastro" element={<FazerCadastro />} />
+                <Route path="/SobreNos" element={<SobreNos />} />
             </Routes>
         </BrowserRouter>
     );

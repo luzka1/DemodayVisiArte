@@ -1,0 +1,21 @@
+
+.container{
+    height: auto;
+    width: 100%;
+}
+.titulo{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5%;
+    font-size: 5vh;
+}
+.texto{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 3vh;
+    color: #757575;
+    text-align: left;
+    padding-bottom: 5%;
+}
