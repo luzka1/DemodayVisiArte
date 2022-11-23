@@ -1,22 +1,18 @@
 import React from "react";
 import styles from "./SobreMim.module.css";
 
-import fundo_perfil from "../../../../img/fundo-perfil.png";
-import foto_perfil from "../../../../img/foto-perfil.png";
-
-function SobreMim() {
+function SobreMim({ data }) {
     return (
         <div className={styles.sobreMim}>
-            <img src={fundo_perfil} alt="" />
+            <img src={data.foto_capa_usuario} alt="" />
             <div>
-                <img src={foto_perfil} alt="" className={styles.foto_perfil} />
-                <h4>#username</h4>
-                <p>
-                    kjnekjenrhfer ergj oerigj ioewrjgio jeiwrogjo iewriog orig
-                    origj ioewrjg ioerjwgj ioergji jeriogj oiergoi jeroigj
-                    ioejrgj ioerjgio ejroigj oeirjgio erjgio joerigji erjoigj
-                    woeir hwpioergh wpo hgpwieu{" "}
-                </p>
+                <img
+                    src={data.foto_perfil_usuario}
+                    alt=""
+                    className={styles.foto_perfil}
+                />
+                <h4>{data.username}</h4>
+                <p>{data.bio}</p>
             </div>
         </div>
     );

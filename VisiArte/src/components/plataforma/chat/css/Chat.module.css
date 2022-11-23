@@ -3,11 +3,6 @@
 }
 body {
     background-color: var(--corBranca);
-<<<<<<< HEAD
-    
-=======
-    /* background-image: url("../../../../img/bg.jpg"); */
->>>>>>> cabde46e467f6bde90e9bbd67db51a11b9781689
 }
 main {
     width: 90vw;

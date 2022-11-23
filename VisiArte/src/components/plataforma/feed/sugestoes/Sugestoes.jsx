@@ -1,21 +1,21 @@
 import React from "react";
 import styles from "./Sugestoes.module.css";
-
 import Sugestao from "./sugestao/Sugestao";
-import img from "../../../../img/foto-perfil.png";
+import { Link } from "react-router-dom";
 
-function Sugestoes() {
+function Sugestoes({ data }) {
     return (
         <div className={styles.sugestoes}>
             <h5>Descubra novos perfis</h5>
             <div className={styles.sugestao}>
-                <Sugestao img={img} nome="#username" key={1} />
-                <Sugestao img={img} nome="#username" key={2} />
-                <Sugestao img={img} nome="#username" key={3} />
-                <Sugestao img={img} nome="#username" key={4} />
-                <Sugestao img={img} nome="#username" key={5} />
-                <Sugestao img={img} nome="#username" key={6} />
-                <Sugestao img={img} nome="#username" key={7} />
+                {data.map((user) => (
+                    <Link
+                        to={`/usuario/${user.username}`}
+                        key={user.id_usuario}
+                    >
+                        <Sugestao img={user.foto_perfil} nome={user.username} />
+                    </Link>
+                ))}
             </div>
         </div>
     );

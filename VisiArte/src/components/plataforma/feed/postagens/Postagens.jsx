@@ -1,28 +1,21 @@
 import React from "react";
 import Postagem from "./postagem/Postagem";
 import styles from "./Postagens.module.css";
+import { Link } from "react-router-dom";
 
-import perfil from "../../../../img/foto-perfil.png";
-import fundo_perfil from "../../../../img/fundo_postagem.png";
-
-function Postagens() {
+function Postagens({ data }) {
     return (
         <div className={styles.postagens}>
-            <Postagem
-                img_perfil={perfil}
-                nome="#username"
-                img_postagem={fundo_perfil}
-            />
-            <Postagem
-                img_perfil={perfil}
-                nome="#username"
-                img_postagem={fundo_perfil}
-            />
-            <Postagem
-                img_perfil={perfil}
-                nome="#username"
-                img_postagem={fundo_perfil}
-            />
+            {data.map((post) => (
+                <Postagem
+                    key={post.id_postagem}
+                    id={post.id_postagem}
+                    img_perfil={post.foto_perfil_usuario}
+                    nome={post.username}
+                    texto={post.conteudo_postagem.texto_postagem}
+                    img_postagem={post.conteudo_postagem.foto_postagem}
+                />
+            ))}
         </div>
     );
 }
