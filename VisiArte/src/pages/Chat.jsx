@@ -10,7 +10,7 @@ function Chat() {
     return (
         <>
             <Header />
-            <main className="container-plataforma">
+            <main>
                 <Amigos />
                 <BatePapo />
             </main>

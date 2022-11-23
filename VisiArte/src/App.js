@@ -9,6 +9,7 @@ import Chat from "./pages/Chat";
 import FazerLogin from "./pages/FazerLogin";
 import FazerCadastro from "./pages/FazerCadastro";
 import SobreNos from "./pages/SobreNos";
+import Pesquisa from "./pages/Pesquisa";
 
 // -------------------------------
 
@@ -18,6 +19,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<LandingPage />} />
                 <Route path="/feed" element={<Feed />} />
+                <Route path="/resultado/:pesquisa" element={<Pesquisa />} />
                 <Route path="/chat" element={<Chat />} />
                 <Route path="/FazerLogin" element={<FazerLogin />} />
                 <Route path="/FazerCadastro" element={<FazerCadastro />} />

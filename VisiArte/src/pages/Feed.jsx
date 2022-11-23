@@ -5,10 +5,10 @@ import GETfeed from "../data/GET_feed.json";
 
 function Feed() {
     return (
-        <div className="container-plataforma">
+        <>
             <Header />
             <ConteudoFeed data={GETfeed} />
-        </div>
+        </>
     );
 }
 
