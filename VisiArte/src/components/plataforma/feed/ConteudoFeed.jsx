@@ -9,7 +9,10 @@ function ConteudoFeed({ data }) {
     return (
         <div className={styles.conteudo_feed}>
             <SobreMim data={data.sobre_mim} />
-            <Postagens data={data.postagens} />
+            <Postagens
+                data={data.postagens}
+                minhaFoto={data.sobre_mim.foto_perfil_usuario}
+            />
             <Sugestoes data={data.descubra_perfis} />
         </div>
     );
