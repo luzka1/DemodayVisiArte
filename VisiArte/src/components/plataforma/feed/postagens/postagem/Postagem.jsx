@@ -1,18 +1,26 @@
 import React from "react";
 import styles from "./Postagem.module.css";
-
+import { Link } from "react-router-dom";
 import curtir from "../../../../../img/curtir.png";
 import comentar from "../../../../../img/comentar.png";
 
-function Postagem({ img_perfil, nome, img_postagem }) {
+function Postagem({ img_perfil, nome, img_postagem, texto, id }) {
     return (
         <div className={styles.postagem}>
             <div className={styles.perfil}>
                 <img src={img_perfil} alt="" />
                 <span>{nome}</span>
             </div>
-            <p className={styles.descricao}>Texto sobre a postagem</p>
-            <img src={img_postagem} alt="" className={styles.foto_postagem} />
+            <Link to={`/postagem/${id}`}>
+                <p className={styles.descricao}>{texto}</p>
+                {img_postagem && (
+                    <img
+                        src={img_postagem}
+                        alt=""
+                        className={styles.foto_postagem}
+                    />
+                )}
+            </Link>
             <div className={styles.interagir}>
                 <img src={curtir} alt="" className={styles.curtir} />
                 <img src={comentar} alt="" className={styles.comentar} />

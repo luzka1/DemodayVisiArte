@@ -5,13 +5,10 @@
     align-items: center;
     padding: 1rem 4rem;
     justify-content: space-between;
-    position: fixed;
-    top: 0;
-    z-index: 2;
 }
 
 .header .logo {
-    width: 40px;
+    width: 125px;
     height: 35px;
 }
 
@@ -23,11 +20,13 @@
     border-radius: 10px;
     gap: 0.5rem;
     margin-left: 5rem;
+    width: 30rem;
 }
 
 .pesquisa input {
     background-color: transparent;
     border: none;
+    width: 100%;
 }
 
 .pesquisa input:focus {

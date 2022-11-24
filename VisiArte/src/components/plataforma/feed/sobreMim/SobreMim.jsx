@@ -1,22 +1,30 @@
 import React from "react";
+import Opcao from "./opcao/Opcao";
 import styles from "./SobreMim.module.css";
 
-import fundo_perfil from "../../../../img/fundo-perfil.png";
-import foto_perfil from "../../../../img/foto-perfil.png";
-
-function SobreMim() {
+function SobreMim({ data }) {
     return (
-        <div className={styles.sobreMim}>
-            <img src={fundo_perfil} alt="" />
-            <div>
-                <img src={foto_perfil} alt="" className={styles.foto_perfil} />
-                <h4>#username</h4>
-                <p>
-                    kjnekjenrhfer ergj oerigj ioewrjgio jeiwrogjo iewriog orig
-                    origj ioewrjg ioerjwgj ioergji jeriogj oiergoi jeroigj
-                    ioejrgj ioerjgio ejroigj oeirjgio erjgio joerigji erjoigj
-                    woeir hwpioergh wpo hgpwieu{" "}
-                </p>
+        <div className={styles.containerSobreMim}>
+            <div className={styles.sobreMim}>
+                <img src={data.foto_capa_usuario} alt="" />
+                <div>
+                    <img
+                        src={data.foto_perfil_usuario}
+                        alt=""
+                        className={styles.foto_perfil}
+                    />
+                    <h4>{data.username}</h4>
+                    <p>{data.bio}</p>
+                </div>
+            </div>
+
+            <div className={styles.borda}></div>
+            <div className={styles.opcoes}>
+                <Opcao nome="Cursos" link="/feed" />
+                <Opcao nome="Freelance" link="/feed" />
+                <div className={styles.borda}></div>
+                <Opcao nome="Cursos" link="/feed" />
+                <Opcao nome="Cursos" link="/feed" />
             </div>
         </div>
     );

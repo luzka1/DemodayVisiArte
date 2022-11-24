@@ -1,6 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
+import { Link, useNavigate } from "react-router-dom";
 import styles from "./Header.module.css";
 import Logo from "../../../../img/logo_header.png";
 import icone_pesquisa from "../../../../img/icone_pesquisa.png";
@@ -10,18 +9,29 @@ import icone_chat from "../../../../img/icone_chat.png";
 import icone_perfil from "../../../../img/icone_perfil.png";
 
 function Header() {
+    const [pesquisa, setPesquisa] = React.useState("");
+    const navigate = useNavigate();
     return (
         <nav className={styles.header}>
             <Link to="/feed">
                 <img src={Logo} alt="" className={styles.logo} />
             </Link>
 
-            <form>
+            <form
+                onSubmit={(e) => {
+                    e.preventDefault();
+                    console.log("kzsdbhszduhb");
+                    let url = `/resultado/${pesquisa}`;
+                    navigate(url);
+                }}
+            >
                 <div className={styles.pesquisa}>
                     <img src={icone_pesquisa} alt="" />
                     <input
                         type="text"
-                        name=""
+                        value={pesquisa}
+                        onChange={({ target }) => setPesquisa(target.value)}
+                        name="p"
                         id=""
                         placeholder="Pesquisar no Visiarte"
                     />
