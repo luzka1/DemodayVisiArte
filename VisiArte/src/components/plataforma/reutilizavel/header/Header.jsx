@@ -8,8 +8,7 @@ import icone_publicar from "../../../../img/icone_publicar.png";
 import icone_chat from "../../../../img/icone_chat.png";
 import icone_perfil from "../../../../img/icone_perfil.png";
 
-function Header() {
-    const [pesquisa, setPesquisa] = React.useState("");
+function Header({ setTextoPesquisa, textoPesquisa }) {
     const navigate = useNavigate();
     return (
         <nav className={styles.header}>
@@ -21,7 +20,7 @@ function Header() {
                 onSubmit={(e) => {
                     e.preventDefault();
                     console.log("kzsdbhszduhb");
-                    let url = `/resultado/${pesquisa}`;
+                    let url = `/resultado/${textoPesquisa}`;
                     navigate(url);
                 }}
             >
@@ -29,8 +28,10 @@ function Header() {
                     <img src={icone_pesquisa} alt="" />
                     <input
                         type="text"
-                        value={pesquisa}
-                        onChange={({ target }) => setPesquisa(target.value)}
+                        value={textoPesquisa}
+                        onChange={({ target }) =>
+                            setTextoPesquisa(target.value)
+                        }
                         name="p"
                         id=""
                         placeholder="Pesquisar no Visiarte"

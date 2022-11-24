@@ -1,5 +1,6 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React from "react";
 
 // PAGINAS -------------------------------
 
@@ -15,21 +16,77 @@ import NaoEncontrado from "./pages/NotFound";
 // -------------------------------
 
 function App() {
+    const [textoPesquisa, setTextoPesquisa] = React.useState("");
     return (
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<LandingPage />} />
-                <Route path="/feed" element={<Feed />} />
-                <Route path="/resultado/:pesquisa" element={<Pesquisa />} />
-                <Route path="/chat" element={<Chat />} />
+                <Route path="/SobreNos*" element={<SobreNos />} />
+
                 <Route path="/login" element={<FazerLogin />} />
                 <Route path="/cadastro" element={<FazerCadastro />} />
                 <Route path="/FazerLogin" element={<FazerLogin />} />
                 <Route path="/FazerCadastro" element={<FazerCadastro />} />
-                <Route path="/SobreNos" element={<SobreNos />} />
+
+                {/* plataforma */}
+                <Route
+                    path="/feed"
+                    element={
+                        <Feed
+                            setTextoPesquisa={setTextoPesquisa}
+                            textoPesquisa={textoPesquisa}
+                        />
+                    }
+                />
+
+                <Route
+                    path="/chat"
+                    element={
+                        <Chat
+                            setTextoPesquisa={setTextoPesquisa}
+                            textoPesquisa={textoPesquisa}
+                        />
+                    }
+                />
+
+                <Route
+                    path="/resultado/:pesquisa"
+                    element={
+                        <Pesquisa
+                            setTextoPesquisa={setTextoPesquisa}
+                            textoPesquisa={textoPesquisa}
+                        />
+                    }
+                />
 
                 {/* NOT FOUND 404 */}
-                <Route path="/resultado/*" element={<NaoEncontrado />} />
+                <Route
+                    path="/resultado/*"
+                    element={
+                        <NaoEncontrado
+                            setTextoPesquisa={setTextoPesquisa}
+                            textoPesquisa={textoPesquisa}
+                        />
+                    }
+                />
+                <Route
+                    path="/usuario/*"
+                    element={
+                        <NaoEncontrado
+                            setTextoPesquisa={setTextoPesquisa}
+                            textoPesquisa={textoPesquisa}
+                        />
+                    }
+                />
+                <Route
+                    path="/postagem/*"
+                    element={
+                        <NaoEncontrado
+                            setTextoPesquisa={setTextoPesquisa}
+                            textoPesquisa={textoPesquisa}
+                        />
+                    }
+                />
             </Routes>
         </BrowserRouter>
     );

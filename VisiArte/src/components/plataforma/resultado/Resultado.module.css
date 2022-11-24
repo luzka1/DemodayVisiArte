@@ -1,4 +1,8 @@
 .containerResultados {
     display: flex;
-    width: 70%;
+    width: 100%;
+    padding: 2rem 5rem;
+    justify-content: space-between;
+    background-color: #f1ecfc;
+    height: 100vh;
 }

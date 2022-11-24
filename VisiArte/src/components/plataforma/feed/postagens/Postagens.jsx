@@ -1,5 +1,5 @@
 import React from "react";
-import Postagem from "./postagem/Postagem";
+import Postagem from "../../reutilizavel/postagem/Postagem";
 import styles from "./Postagens.module.css";
 import icone_video from "../../../../img/icone_video.png";
 import icone_imagem from "../../../../img/icone_imagem.png";

@@ -2,10 +2,13 @@ import React from "react";
 import NaoEncontrado from "../components/NaoEncontrado/NaoEncontrado";
 import Header from "../components/plataforma/reutilizavel/header/Header";
 
-const NotFound = () => {
+const NotFound = ({ textoPesquisa, setTextoPesquisa }) => {
     return (
         <>
-            <Header />
+            <Header
+                setTextoPesquisa={setTextoPesquisa}
+                textoPesquisa={textoPesquisa}
+            />
             <NaoEncontrado />
         </>
     );

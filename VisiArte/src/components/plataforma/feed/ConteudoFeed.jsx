@@ -3,17 +3,17 @@ import styles from "./ConteudoFeed.module.css";
 
 import SobreMim from "./sobreMim/SobreMim";
 import Postagens from "./postagens/Postagens";
-import Sugestoes from "./sugestoes/Sugestoes";
+import Sugestoes from "../reutilizavel/sugestoes/Sugestoes";
 
-function ConteudoFeed({ data }) {
+function ConteudoFeed({ sugestoes, postagens, sobreMim }) {
     return (
         <div className={styles.conteudo_feed}>
-            <SobreMim data={data.sobre_mim} />
+            <SobreMim data={sobreMim.sobre_mim} />
             <Postagens
-                data={data.postagens}
-                minhaFoto={data.sobre_mim.foto_perfil_usuario}
+                data={postagens.postagens}
+                minhaFoto={sobreMim.sobre_mim.foto_perfil_usuario}
             />
-            <Sugestoes data={data.descubra_perfis} />
+            <Sugestoes data={sugestoes.descubra_perfis} />
         </div>
     );
 }

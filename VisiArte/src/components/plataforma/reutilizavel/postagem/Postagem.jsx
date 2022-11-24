@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./Postagem.module.css";
 import { Link } from "react-router-dom";
-import curtir from "../../../../../img/curtir.png";
-import comentar from "../../../../../img/comentar.png";
+import curtir from "../../../../img/curtir.png";
+import comentar from "../../../../img/comentar.png";
 
 function Postagem({ img_perfil, nome, img_postagem, texto, id }) {
     return (
