@@ -1,0 +1,18 @@
+.Logo{
+    width: 23vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-end;
+}
+
+.VisiArte{
+    font-family: nasa;
+    font-size: 8vh;
+    background: rgb(248,187,108,1);
+    background: radial-gradient(circle, rgba(248,187,108,1) 0%, rgba(240,96,36,1) 110%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 300% 300%;
+}

@@ -1,0 +1,111 @@
+.DivMeio{
+    position: relative;
+    height: 100vh;
+    width: 88vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.MeioBaixo{
+    width: 80%;
+    height: 70%;
+    background-color: rgba(255, 255, 255, 0.826);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.TextoIniciar{
+    font-size: 42px;
+    text-align: center;
+    padding-top: 8%;
+}
+
+.Manter{
+    padding: 1rem 0 1.8rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 81%;
+}
+
+.Manter label{
+    padding-left: 0.5rem;
+}
+
+.Acessar{
+    text-decoration: none;
+    color:#222
+}
+
+.EsqSenha, .CrieConta{
+    text-decoration: none;
+    color:#646464;
+}
+
+.Acessar{
+    font-size: 2rem;
+    border: 2px solid #49B3BC;
+    border-radius: 20px;
+    padding: 0.3rem 1rem;
+}
+.setaAcc{
+    margin-left:10px;
+}
+
+.Acessar span{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.Acessar:hover{
+    background-color: #49B3BC;
+    color: #FFF;
+    transition: 200ms all;
+}
+
+.EsqSenha{
+    padding-top: 1rem;
+    position: relative;
+}
+
+.EsqSenha:after{
+    content: "";
+    position: absolute;
+    background-color: #F06024;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -1px;
+    transition: 0.3s;
+}
+.EsqSenha:hover{
+    color: #000;
+}
+
+.EsqSenha:hover:after{
+    width: 100%;
+}
+
+.CrieConta{
+    position: relative;
+}
+
+.CrieConta:after{
+    content: "";
+    position: absolute;
+    background-color: #F06024;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -1px;
+    transition: 0.3s;
+}
+.CrieConta:hover{
+    color: #000;
+}
+
+.CrieConta:hover:after{
+    width: 100%;
+}

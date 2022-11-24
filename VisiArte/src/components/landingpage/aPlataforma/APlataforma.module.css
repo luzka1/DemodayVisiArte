@@ -24,8 +24,9 @@
     font-size: 4vh;
     line-height: 4vh;
     color: #fff;
-    text-align: center;
+    text-align: left;
     gap: 5vw;
+    text-indent:2vw;
 }
 .texto {
     height: 80vh;

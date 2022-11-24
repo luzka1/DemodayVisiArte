@@ -1,4 +1,5 @@
 import styles from "./Header.module.css";
+import {Link} from "react-router-dom"
 
 function Header() {
     return (
@@ -25,7 +26,7 @@ function Header() {
                         <div className={styles.itens}>Contato</div>
                         <div className={styles.itens}>Sobre Nós</div>
                     </div>
-                    <div className={styles.btnlogin}>Fazer Login</div>
+                    <div className={styles.btnlogin}><Link to="/login">Fazer Login</Link></div>
                 </div>
             </nav>
         </>
