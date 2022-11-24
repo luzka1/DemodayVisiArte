@@ -10,8 +10,8 @@ function TelaDeLogin(){
             <div className={Styles.DivMeio}>
                 <div className={Styles.MeioBaixo}>
                     <h1 className={Styles.TextoIniciar}>Iniciar sessão</h1>
-                    <Escreva type ="text" placeholder ="email / nome de usuario"/>
-                    <Escreva type ="password" placeholder ="Senha"/>
+                    <Escreva type ="text" placeholder ="EMAIL / NOME DE USUÁRIO"/>
+                    <Escreva type ="password" placeholder ="SENHA"/>
 
                     <div className={Styles.Manter}>
                         <input type="checkbox" name="ManterLogin" id="ManterLogin" className={Styles.Login} />

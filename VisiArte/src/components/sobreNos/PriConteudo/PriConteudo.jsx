@@ -9,12 +9,36 @@ function PriConteudo() {
 
     const isInView = useInView(ref, { once: true });
 
-    return (
-        <div className={styles.container}>
-            
-            <div className={styles.titulo}><text>Nós somos pessoas que amam amar a arte</text></div>
+    const icon = {
+        hidden: {
+            opacity: 0,
+        },
+        visible: {
+            opacity: 1 ,
 
-            <div className={styles.texto}>
+        }
+    }
+    return (
+
+        <motion.div className={styles.container}>
+            
+            <motion.div className={styles.titulo}
+            varitants={icon}
+            initial="hidden"
+            animate="visible"
+            transition={{
+                default: { duration:3}
+            }}
+            ><text>Nós somos pessoas que amam amar a arte</text></motion.div>
+
+            <motion.div className={styles.texto}
+            ref={ ref }
+            style={{
+                transform: isInView ? "none" : "translateX(-10vh)",
+                opacity: isInView ? 1 : 0,
+                transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+            }}
+            >
                 
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
@@ -27,9 +51,9 @@ function PriConteudo() {
                 <p>
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
-                </div>
+                </motion.div>
 
-        </div>
+        </motion.div>
     );
 }
 

@@ -24,7 +24,7 @@ function Header() {
                     <div className={styles.conteudo}>
                         <div className={styles.itens}>Como Funcionamos?</div>
                         <div className={styles.itens}>Contato</div>
-                        <div className={styles.itens}>Sobre Nós</div>
+                        <Link to="/SobreNos"><div className={styles.itens}>Sobre Nós</div></Link>
                     </div>
                     <div className={styles.btnlogin}><Link to="/login">Fazer Login</Link></div>
                 </div>

@@ -1,4 +1,5 @@
 import styles from "./Header.module.css";
+import { Link } from "react-router-dom";
 
 function Header() {
     return (
@@ -6,7 +7,7 @@ function Header() {
             <nav className={styles.navprin}>
                 <div className={styles.header}>
                     <div className={styles.logotipo}>
-                        <div className={styles.logo}>
+                        <Link to="/"><div className={styles.logo}>
                             <svg
                                 viewBox="0 0 43 33"
                                 fill="none"
@@ -19,13 +20,14 @@ function Header() {
                             </svg>
                             VisiArte
                         </div>
+                        </Link>
                     </div>
                     <div className={styles.conteudo}>
                         <div className={styles.itens}>Como Funcionamos?</div>
                         <div className={styles.itens}>Contato</div>
                         <div className={styles.itens}>Sobre Nós</div>
                     </div>
-                    <div className={styles.btnlogin}>Fazer Login</div>
+                    <Link to="/FazerLogin"><div className={styles.btnlogin}>Fazer Login</div></Link>
                 </div>
             </nav>
         </>
