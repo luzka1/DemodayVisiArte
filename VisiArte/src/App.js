@@ -10,6 +10,7 @@ import FazerLogin from "./pages/FazerLogin";
 import FazerCadastro from "./pages/FazerCadastro";
 import SobreNos from "./pages/SobreNos";
 import Pesquisa from "./pages/Pesquisa";
+import NaoEncontrado from "./pages/NotFound";
 
 // -------------------------------
 
@@ -24,6 +25,9 @@ function App() {
                 <Route path="/FazerLogin" element={<FazerLogin />} />
                 <Route path="/FazerCadastro" element={<FazerCadastro />} />
                 <Route path="/SobreNos" element={<SobreNos />} />
+
+                {/* NOT FOUND 404 */}
+                <Route path="*" element={<NaoEncontrado />} />
             </Routes>
         </BrowserRouter>
     );

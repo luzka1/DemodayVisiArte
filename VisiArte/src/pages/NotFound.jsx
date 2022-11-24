@@ -1,12 +1,14 @@
 import React from "react";
+import NaoEncontrado from "../components/NaoEncontrado/NaoEncontrado";
 import Header from "../components/plataforma/reutilizavel/header/Header";
 
-function Pesquisa() {
+const NotFound = () => {
     return (
         <>
             <Header />
+            <NaoEncontrado />
         </>
     );
-}
+};
 
-export default Pesquisa;
+export default NotFound;
