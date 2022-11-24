@@ -24,6 +24,12 @@ function App() {
                 <Route path="/chat" element={<Chat />} />
                 <Route path="/login" element={<FazerLogin />} />
                 <Route path="/cadastro" element={<FazerCadastro />} />
+                <Route path="/FazerLogin" element={<FazerLogin />} />
+                <Route path="/FazerCadastro" element={<FazerCadastro />} />
+                <Route path="/SobreNos" element={<SobreNos />} />
+
+                {/* NOT FOUND 404 */}
+                <Route path="/resultado/*" element={<NaoEncontrado />} />
             </Routes>
         </BrowserRouter>
     );
