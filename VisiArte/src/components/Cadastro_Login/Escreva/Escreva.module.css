@@ -1,14 +1,14 @@
 .Iniciando{
     width: 90%;
     height: auto;
-    padding-top: 1rem;
+    padding-top: 1vh;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .Iniciando input{
-    font-size: 17px;
+    font-size: 21px;
     padding: 1rem;
     margin-top: 1.3rem;
     background-color: #fff;

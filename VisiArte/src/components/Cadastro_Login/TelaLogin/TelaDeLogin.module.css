@@ -1,15 +1,14 @@
 .DivMeio{
     position: relative;
-    height: 100vh;
-    width: 88vw;
+    height: 84vh;
+    width: 100vw;
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    justify-content: center;
 }
 
 .MeioBaixo{
-    width: 80%;
-    height: 70%;
+    width: 35vw;
+    height: 75vh;
     background-color: rgba(255, 255, 255, 0.826);
     backdrop-filter: blur(10px);
     display: flex;
@@ -19,7 +18,8 @@
 .TextoIniciar{
     font-size: 42px;
     text-align: center;
-    padding-top: 8%;
+    padding-top: 7vh;
+    padding-bottom: 2vh;
 }
 
 .Manter{
@@ -32,11 +32,7 @@
 
 .Manter label{
     padding-left: 0.5rem;
-}
-
-.Acessar{
-    text-decoration: none;
-    color:#222
+    cursor: pointer;
 }
 
 .EsqSenha, .CrieConta{
@@ -44,25 +40,8 @@
     color:#646464;
 }
 
-.Acessar{
-    font-size: 2rem;
-    border: 2px solid #49B3BC;
-    border-radius: 20px;
-    padding: 0.3rem 1rem;
-}
 .setaAcc{
     margin-left:10px;
-}
-
-.Acessar span{
-    font-size: 30px;
-    margin-left: 10px;
-}
-
-.Acessar:hover{
-    background-color: #49B3BC;
-    color: #FFF;
-    transition: 200ms all;
 }
 
 .EsqSenha{

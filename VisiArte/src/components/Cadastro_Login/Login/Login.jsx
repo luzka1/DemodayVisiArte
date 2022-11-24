@@ -1,7 +1,7 @@
 import Styles from "./Login.module.css"
 import Fundo from "../../../img/backprincipalEscuro.jpg";
-import LogoLogin from "./Logo/Logo_Login";
-import TelaDeLogin from "./TelaLogin/TelaDeLogin";
+import LogoLogin from "../Logo/Logo_Login";
+import TelaDeLogin from "../TelaLogin/TelaDeLogin";
 import { Link } from "react-router-dom"
 
 
