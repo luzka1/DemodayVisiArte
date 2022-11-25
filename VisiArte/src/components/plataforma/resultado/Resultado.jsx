@@ -5,11 +5,11 @@ import Postagem from "../reutilizavel/postagem/Postagem";
 import sugest from "../../../data/descubra.json";
 import Pessoa from "./pessoa/Pessoa";
 
-const Resultado = ({ postagens }) => {
+const Resultado = ({ postagens, pesquisa }) => {
     return (
         <div className={styles.containerResultados}>
             <span>
-                Resultados da pesquisa: <strong>Faz tudo</strong>
+                Resultados da pesquisa: <strong>{pesquisa}</strong>
             </span>
             <div className={styles.container}>
                 <div className={styles.resultados}>
