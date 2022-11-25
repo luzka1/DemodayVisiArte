@@ -1,13 +1,13 @@
 {
-    "postagens": [
+    "postagens": [ 
         {
-            "id_postagem": 1,
-            "username": "mochileiro",
-            "foto_perfil_usuario": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiyOH1pv_511J6QtJxGudsusXIuIipBbvzR2i2XqhPS9bJB26fWNklnPMF6-KYcWXXrS0&usqp=CAU",
+            "id_postagem": 2,
+            "username": "Lucas Melo Araujo",
+            "foto_perfil_usuario": "https://images.pexels.com/photos/3894557/pexels-photo-3894557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "data_postagem": "22/11/2022",
             "conteudo_postagem": {
-                "texto_postagem": "scscsccsdcsd",
-                "foto_postagem": null
+                "texto_postagem": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit est in sapien venenatis interdum. Donec nec interdum diam, dapibus sollicitudin enim. ≧◉◡◉≦",
+                "foto_postagem": "https://images.pexels.com/photos/102127/pexels-photo-102127.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             },
             "curtidas_postagem": {
                 "quantidade_curtidas": 500,
@@ -23,15 +23,15 @@
                     }
                 ]
             }
-        },
+        },     
         {
             "id_postagem": 2,
-            "username": "mochileiro",
-            "foto_perfil_usuario": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiyOH1pv_511J6QtJxGudsusXIuIipBbvzR2i2XqhPS9bJB26fWNklnPMF6-KYcWXXrS0&usqp=CAU",
+            "username": "Isabela Rocha Gomes",
+            "foto_perfil_usuario": "https://images.pexels.com/photos/2748052/pexels-photo-2748052.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "data_postagem": "22/11/2022",
             "conteudo_postagem": {
-                "texto_postagem": "Texto sobre a postagem",
-                "foto_postagem": "https://images.memphistours.com/large/e97679081a783f0b48a4c95f61d79ba0.jpg"
+                "texto_postagem": "Nullam mollis iaculis odio, a pellentesque magna. Donec in tortor eget enim lacinia feugiat vel mattis justo. Maecenas commodo pharetra ligula, nec accumsan nisi condimentum et. Donec venenatis nibh vitae nisl congue, eget tempor odio faucibus. Maecenas in nunc est. Sed ut magna lorem. (👍≖‿‿≖)👍 👍(≖‿‿≖👍)",
+                "foto_postagem": "https://images.pexels.com/photos/1460037/pexels-photo-1460037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             },
             "curtidas_postagem": {
                 "quantidade_curtidas": 500,
@@ -51,11 +51,11 @@
         {
             "id_postagem": 3,
             "username": "mochileiro",
-            "foto_perfil_usuario": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiyOH1pv_511J6QtJxGudsusXIuIipBbvzR2i2XqhPS9bJB26fWNklnPMF6-KYcWXXrS0&usqp=CAU",
+            "foto_perfil_usuario": "https://images.pexels.com/photos/5234168/pexels-photo-5234168.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "data_postagem": "22/11/2022",
             "conteudo_postagem": {
-                "texto_postagem": "Texto sobre a postagem",
-                "foto_postagem": "https://images.memphistours.com/large/e97679081a783f0b48a4c95f61d79ba0.jpg"
+                "texto_postagem": "🔥🔥🔥Vestibulum sed diam et nibh sagittis suscipit. Fusce est nisl, mollis et eros eu, rutrum bibendum augue. Maecenas nec nulla non lectus semper aliquet a ac augue. Proin turpis felis, tincidunt id fermentum a, pulvinar et ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi quis ex mauris. Sed faucibus💍 facilisis massa, sit amet posuere lacus bibendum et. Pellentesque sed velit faucibus, scelerisque ante auctor, placerat felis. Etiam laoreet nunc eget felis laoreet, vitae euismod nibh porttitor.👓 Sed rutrum odio ac sem pharetra hendrerit.",
+                "foto_postagem": "https://images.pexels.com/photos/1366883/pexels-photo-1366883.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             },
             "curtidas_postagem": {
                 "quantidade_curtidas": 500,
