@@ -8,11 +8,12 @@
 }
 
 .Iniciando input{
-    font-size: 21px;
+    font-size: 18px;
+    font-weight: 600;
     padding: 1rem;
     margin-top: 1.3rem;
     background-color: #fff;
-    color: #504F4F;
+    color: #333;
     width:90%;
     border: 1px solid #F06024;
 }

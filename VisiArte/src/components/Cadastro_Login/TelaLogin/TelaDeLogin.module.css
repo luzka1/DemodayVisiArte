@@ -7,8 +7,8 @@
 }
 
 .MeioBaixo{
-    width: 35vw;
-    height: 75vh;
+    width: 27vw;
+    height: 84vh;
     background-color: rgba(255, 255, 255, 0.826);
     backdrop-filter: blur(10px);
     display: flex;
@@ -16,7 +16,7 @@
     align-items: center;
 }
 .TextoIniciar{
-    font-size: 42px;
+    font-size: 30px;
     text-align: center;
     padding-top: 7vh;
     padding-bottom: 2vh;
