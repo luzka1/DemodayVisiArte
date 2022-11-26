@@ -6,9 +6,9 @@ import LogoLogin from "../Logo/Logo_Login";
 function Cadastro() {
     return (
         <section className={Styles.fundo}>
-        <LogoLogin className = {Styles.logoCadastro}/>
-        <TelaDeLogin className = {Styles.telaCadastro}/>
-        <span className={Styles.crieSpan}>Crie uma conta</span>
+            <LogoLogin className = {Styles.logoCadastro}/>
+            <TelaDeLogin className = {Styles.telaCadastro}/>
+            <span className={Styles.crieSpan}>Crie uma conta</span>
         </section>
     )
 }
