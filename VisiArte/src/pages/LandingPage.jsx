@@ -9,7 +9,8 @@ import APlataforma from "../components/landingpage/aPlataforma/APlataforma";
 import Comentarios from "../components/landingpage/comentarios/Comentarios";
 import Footer from "../components/landingpage/footer/Footer";
 import { motion, useInView } from "framer-motion";
-import { useRef, useEffect, useState } from "react";
+import { useRef} from "react";
+import Vlibras from "../components/Vlibras/Vlibras"
 
 function LandingPage() {
 
@@ -19,6 +20,7 @@ function LandingPage() {
 
     return (
         <div className="ContainerLandingPage">
+            <Vlibras/>
             <Header />
             <Entrada />
             <SliderPrin />

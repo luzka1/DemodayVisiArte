@@ -27,6 +27,14 @@
     border: 2px solid var(--cor2);
     background-color: var(--cor1);
     border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#send img{
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
 }
 #funcoes{
     display: flex;
