@@ -25,8 +25,6 @@ function App() {
 
                 <Route path="/login" element={<FazerLogin />} />
                 <Route path="/cadastro" element={<FazerCadastro />} />
-                <Route path="/FazerLogin" element={<FazerLogin />} />
-                <Route path="/FazerCadastro" element={<FazerCadastro />} />
 
                 {/* plataforma */}
                 <Route
