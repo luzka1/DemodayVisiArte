@@ -4,7 +4,6 @@
     border: 1px solid rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     padding: 1rem;
-    cursor: pointer;
 }
 
 .containerEsquerda {
@@ -12,6 +11,7 @@
 }
 
 .esquerda {
+    cursor: pointer;
     display: flex;
     align-items: center;
     gap: 1rem;

@@ -33,24 +33,25 @@ const Seguir = ({ seguindo }) => {
     }
 };
 
-const Pessoa = () => {
-    return (
-        <div className={styles.pessoa}>
-            <Link to="/feed" className={styles.containerEsquerda}>
-                <div className={styles.esquerda}>
-                    <img
-                        src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/ba/29/5c/img-worlds-of-adventure.jpg?w=1200&h=1200&s=1"
-                        alt=""
-                    />
-                    <div>
-                        <h6>#username</h6>
-                        <span>username da silva</span>
+const Pessoa = ({p}) => {
+        return (
+            <div className={styles.pessoa}>
+                <Link to={`/usuario/${p.username}`} className={styles.containerEsquerda}>
+                    <div className={styles.esquerda}>
+                        <img
+                            src={p.foto_perfil}
+                            alt=""
+                        />
+                        <div>
+                            <h6>{p.username}</h6>
+                            <span>{p.name}</span>
+                        </div>
                     </div>
-                </div>
-            </Link>
-            <Seguir seguindo={true} />
-        </div>
-    );
+                </Link>
+                <Seguir seguindo={p.seguindo} />
+            </div>
+        );
+    
 };
 
 export default Pessoa;

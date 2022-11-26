@@ -3,67 +3,93 @@
         {
             "id_usuario": 1,
             "foto_perfil": "https://images.pexels.com/photos/4471894/pexels-photo-4471894.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            "username": "Rafaela Correia Melo"
+            "name": "Rafaela Correia Melo",
+            "username" : "rinha159",
+            "seguindo" : true
         },
         {
             "id_usuario": 2,
             "foto_perfil": "https://images.pexels.com/photos/5011647/pexels-photo-5011647.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            "username": "Letícia Gomes Goncalves"
+            "name": "Letícia Gomes Goncalves",
+            "username" : "Josiedesu",
+            "seguindo" : false
         },
         {
             "id_usuario": 3,
             "foto_perfil": "https://images.pexels.com/photos/914922/pexels-photo-914922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            "username": "Julian Sousa Azevedo"
+            "name": "Julian Sousa Azevedo",
+            "username" : "Raujosie",
+            "seguindo" : true
         },
         {
             "id_usuario": 4,
             "foto_perfil": "https://images.pexels.com/photos/3894557/pexels-photo-3894557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            "username": "Isabelle Pereira Goncalves"
+            "name": "Isabelle Pereira Goncalves",
+            "username" : "HollieJosie",
+            "seguindo" : false
         },
         {
             "id_usuario": 5,
             "foto_perfil": "https://images.pexels.com/photos/4441997/pexels-photo-4441997.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            "username": "Larissa Barbosa Cardoso"
+            "name": "Larissa Barbosa Cardoso",
+            "username" : "TheDaffyVengeful",
+            "seguindo" : true
         },
         {
             "id_usuario": 6,
             "foto_perfil": "https://images.pexels.com/photos/894156/pexels-photo-894156.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            "username": "Martim Ribeiro Castro"
+            "name": "Martim Ribeiro Castro",
+            "username" : "Vengefulroe",
+            "seguindo" : false
         },
         {
             "id_usuario": 7,
             "foto_perfil": "https://images.pexels.com/photos/3778203/pexels-photo-3778203.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            "username": "Melissa Pereira Almeida"
+            "name": "Melissa Pereira Almeida",
+            "username" : "Josiekun",
+            "seguindo" : false
         },
         {
             "id_usuario": 8,
             "foto_perfil": "https://images.pexels.com/photos/3817672/pexels-photo-3817672.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            "username": "Nicolash Rocha Pereira"
+            "name": "Nicolash Rocha Pereira",
+            "username" : "Josielau",
+            "seguindo" : true
         },
         {
             "id_usuario": 9,
             "foto_perfil": "https://images.pexels.com/photos/4483089/pexels-photo-4483089.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            "username": "Sofia Melo Rocha"
+            "name": "Sofia Melo Rocha",
+            "username" : "RascalSqueak",
+            "seguindo" : false
         },
         {
             "id_usuario": 10,
             "foto_perfil": "https://images.pexels.com/photos/9736722/pexels-photo-9736722.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            "username": "Carlos Ferreira Castro"
+            "name": "Carlos Ferreira Castro",
+            "username" : "Squeakun",
+            "seguindo" : true
         },
         {
             "id_usuario": 11,
             "foto_perfil": "https://images.pexels.com/photos/40186/dance-ballet-powder-girl-40186.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            "username": "Guilherme Melo Barros"
+            "name": "Guilherme Melo Barros",
+            "username" : "A8n4kSqu4l",
+            "seguindo" : false
         },
         {
             "id_usuario": 12,
             "foto_perfil": "https://images.pexels.com/photos/3949689/pexels-photo-3949689.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            "username": "Vinicius Dias Correia"
+            "name": "Vinicius Dias Correia",
+            "username" : "Plusqueak",
+            "seguindo" : true
         },
         {
             "id_usuario": 13,
             "foto_perfil": "https://images.pexels.com/photos/1701197/pexels-photo-1701197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            "username": "Kauã Pinto Oliveira"
+            "name": "Kauã Pinto Oliveira",
+            "username" : "TheUltraAbnormal",
+            "seguindo" : false
         }
     ]
 }
