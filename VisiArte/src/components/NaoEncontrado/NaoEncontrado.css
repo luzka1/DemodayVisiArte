@@ -1,3 +1,9 @@
+.wrapper {
+    max-width: 70vw;
+    max-height: 60vh;
+    margin: 0 auto;
+}
+
 .cls-1 {
     fill: #ffc541;
 }

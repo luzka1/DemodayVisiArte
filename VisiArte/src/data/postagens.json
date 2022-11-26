@@ -1,7 +1,7 @@
 {
     "postagens": [ 
         {
-            "id_postagem": 2,
+            "id_postagem": 1,
             "username": "Lucas Melo Araujo",
             "foto_perfil_usuario": "https://images.pexels.com/photos/3894557/pexels-photo-3894557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "data_postagem": "22/11/2022",

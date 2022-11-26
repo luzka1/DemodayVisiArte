@@ -48,6 +48,7 @@
 }
 
 .resultadoPostagens {
+    width: 50vw;
     display: flex;
     flex-direction: column;
     gap: 1rem;

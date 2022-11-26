@@ -7,7 +7,7 @@ const Seguir = ({ seguindo }) => {
     const [seg, setSeg] = React.useState(seguindo);
 
     React.useEffect(() => {
-        console.log(seg);
+        // fazer requisição no back pra seguir/naoSeguir 
     }, [seg]);
 
     if (seg) {

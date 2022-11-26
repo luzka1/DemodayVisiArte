@@ -19,12 +19,10 @@ import Vlibras from "./components/Vlibras/Vlibras"
 function App() {
     const [textoPesquisa, setTextoPesquisa] = React.useState("");
     return (
-        <>
-            <Vlibras/>
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<LandingPage />} />
-                <Route path="/SobreNos*" element={<SobreNos />} />
+                <Route path="/SobreNos" element={<SobreNos />} />
 
                 <Route path="/login" element={<FazerLogin />} />
                 <Route path="/cadastro" element={<FazerCadastro />} />
@@ -92,7 +90,6 @@ function App() {
                 />
             </Routes>
         </BrowserRouter>
-        </>
     );
 }
 
