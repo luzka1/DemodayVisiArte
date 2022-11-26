@@ -3,7 +3,7 @@ import Styles from "./BtnCadastroLogin.module.css"
 
 function BtnCadastroLogin(props){
     return(
-        <Link to="/feed" className={Styles.Acessar}>
+        <Link to="/feed" className={`${Styles.Acessar} ${props.className}`}>
             <p>{props.Acessar}</p>
             <span>&#x276F;</span>
         </Link>

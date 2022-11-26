@@ -1,10 +1,10 @@
 import Styles from "./Logo_Login.module.css";
 import { Link } from "react-router-dom";
 
-function LogoLogin(){
+function LogoLogin(props){
     return(
         <>
-            <div className={Styles.Logo}>
+            <div className={`${Styles.Logo} ${props.className}`}>
             <Link to ="/">
                 <div className={Styles.svg}>
                     <svg

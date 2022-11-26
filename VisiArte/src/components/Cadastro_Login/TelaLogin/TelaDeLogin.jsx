@@ -4,13 +4,13 @@ import Escreva from "../Escreva/Escreva";
 import Styles from "./TelaDeLogin.module.css";
 
 
-function TelaDeLogin(){
+function TelaDeLogin(props){
     return(
         <>
-            <div className={Styles.DivMeio}>
+            <div className={`${Styles.DivMeio} ${props.className}`}>
                 <div className={Styles.MeioBaixo}>
                     <h1 className={Styles.TextoIniciar}>Iniciar sessão</h1>
-                    <Escreva type ="text" placeholder ="E-MAIL OU NOME DE USUÁRIO"/>
+                    <Escreva type ="text" placeholder ="E-MAIL OU USUÁRIO"/>
                     <Escreva type ="password" placeholder ="SENHA"/>
 
                     <div className={Styles.Manter}>
@@ -18,7 +18,7 @@ function TelaDeLogin(){
                         <label for="ManterLogin">Manter conectado</label>
                     </div>
 
-                    <BtnCadastroLogin Acessar = "Logar"/>
+                    <BtnCadastroLogin Acessar = "" className={Styles.BtnLogin}/>
         
                     <Link to="/" className={Styles.EsqSenha}>Esqueceu a senha?</Link>
         
