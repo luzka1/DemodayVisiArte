@@ -1,26 +1,26 @@
-#chatBatepapo{
+#chatBatepapo {
     position: relative;
     width: 80%;
     height: 100%;
     /* background-color: black; */
-    right: 0;  
+    right: 0;
 }
-:root{
+:root {
     --pf: 5rem;
-    --cor1: #F06024;
-    --cor2: #F8BB6C;
+    --cor1: #f06024;
+    --cor2: #f8bb6c;
     --cor3: #174056;
-    --cor4: #70DBE5;
-    --cor5: #14101F;
-    --cor6: #F7F7EE;
+    --cor4: #70dbe5;
+    --cor5: #14101f;
+    --cor6: #f1ecfc;
 }
-#chatArea{
+#chatArea {
     width: 100%;
     height: 90%;
     /* background-color: rgb(50, 35, 35); */
 }
 
-#send{
+#send {
     /* border-radius: 40px; */
     width: 4rem;
     height: 4rem;
@@ -31,12 +31,12 @@
     align-items: center;
     justify-content: space-around;
 }
-#send img{
+#send img {
     width: 90%;
     height: 90%;
     border-radius: 50%;
 }
-#funcoes{
+#funcoes {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -45,7 +45,7 @@
     /* background-color: black; */
 }
 
-#textarea{
+#textarea {
     border-radius: 50px;
     width: 85%;
     height: 70%;
@@ -53,18 +53,18 @@
     padding-left: 20px;
 }
 
-@media (min-width: 1000px) and (max-width:1500px){
-    #conversa{
+@media (min-width: 1000px) and (max-width: 1500px) {
+    #conversa {
         width: 100%;
     }
 }
-@media (min-width: 450px) and (max-width:999px){
-    #conversa{
+@media (min-width: 450px) and (max-width: 999px) {
+    #conversa {
         width: 100%;
     }
 }
-@media (min-width: 0px) and (max-width:449px){
-    #conversa{
+@media (min-width: 0px) and (max-width: 449px) {
+    #conversa {
         width: 100%;
     }
 }

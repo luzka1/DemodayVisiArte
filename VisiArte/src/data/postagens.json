@@ -1,7 +1,8 @@
 {
-    "postagens": [ 
+    "postagens": [
         {
             "id_postagem": 1,
+            "name": "Lucas Melo Araujo",
             "username": "Lucas Melo Araujo",
             "foto_perfil_usuario": "https://images.pexels.com/photos/3894557/pexels-photo-3894557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "data_postagem": "22/11/2022",
@@ -23,10 +24,11 @@
                     }
                 ]
             }
-        },     
+        },
         {
             "id_postagem": 2,
-            "username": "Isabela Rocha Gomes",
+            "name": "Isabela Rocha Gomes",
+            "username": "rinha159",
             "foto_perfil_usuario": "https://images.pexels.com/photos/2748052/pexels-photo-2748052.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "data_postagem": "22/11/2022",
             "conteudo_postagem": {
@@ -50,6 +52,82 @@
         },
         {
             "id_postagem": 3,
+            "name": "mochileiro",
+            "username": "mochileiro",
+            "foto_perfil_usuario": "https://images.pexels.com/photos/5234168/pexels-photo-5234168.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "data_postagem": "22/11/2022",
+            "conteudo_postagem": {
+                "texto_postagem": "🔥🔥🔥Vestibulum sed diam et nibh sagittis suscipit. Fusce est nisl, mollis et eros eu, rutrum bibendum augue. Maecenas nec nulla non lectus semper aliquet a ac augue. Proin turpis felis, tincidunt id fermentum a, pulvinar et ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi quis ex mauris. Sed faucibus💍 facilisis massa, sit amet posuere lacus bibendum et. Pellentesque sed velit faucibus, scelerisque ante auctor, placerat felis. Etiam laoreet nunc eget felis laoreet, vitae euismod nibh porttitor.👓 Sed rutrum odio ac sem pharetra hendrerit.",
+                "foto_postagem": "https://images.pexels.com/photos/1366883/pexels-photo-1366883.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            },
+            "curtidas_postagem": {
+                "quantidade_curtidas": 500,
+                "curti": true
+            },
+            "comentarios_postagem": {
+                "quantidade_comentarios": 500,
+                "Comentarios": [
+                    {
+                        "id_comentario": 1,
+                        "username": "felipe_domingos99",
+                        "comentario": "gostei muito da postagem"
+                    }
+                ]
+            }
+        },
+        {
+            "id_postagem": 4,
+            "name": "mochileiro",
+            "username": "mochileiro",
+            "foto_perfil_usuario": "https://images.pexels.com/photos/5234168/pexels-photo-5234168.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "data_postagem": "22/11/2022",
+            "conteudo_postagem": {
+                "texto_postagem": "🔥🔥🔥Vestibulum sed diam et nibh sagittis suscipit. Fusce est nisl, mollis et eros eu, rutrum bibendum augue. Maecenas nec nulla non lectus semper aliquet a ac augue. Proin turpis felis, tincidunt id fermentum a, pulvinar et ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi quis ex mauris. Sed faucibus💍 facilisis massa, sit amet posuere lacus bibendum et. Pellentesque sed velit faucibus, scelerisque ante auctor, placerat felis. Etiam laoreet nunc eget felis laoreet, vitae euismod nibh porttitor.👓 Sed rutrum odio ac sem pharetra hendrerit.",
+                "foto_postagem": "https://images.pexels.com/photos/1366883/pexels-photo-1366883.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            },
+            "curtidas_postagem": {
+                "quantidade_curtidas": 500,
+                "curti": true
+            },
+            "comentarios_postagem": {
+                "quantidade_comentarios": 500,
+                "Comentarios": [
+                    {
+                        "id_comentario": 1,
+                        "username": "felipe_domingos99",
+                        "comentario": "gostei muito da postagem"
+                    }
+                ]
+            }
+        },
+        {
+            "id_postagem": 5,
+            "name": "mochileiro",
+            "username": "mochileiro",
+            "foto_perfil_usuario": "https://images.pexels.com/photos/5234168/pexels-photo-5234168.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "data_postagem": "22/11/2022",
+            "conteudo_postagem": {
+                "texto_postagem": "🔥🔥🔥Vestibulum sed diam et nibh sagittis suscipit. Fusce est nisl, mollis et eros eu, rutrum bibendum augue. Maecenas nec nulla non lectus semper aliquet a ac augue. Proin turpis felis, tincidunt id fermentum a, pulvinar et ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi quis ex mauris. Sed faucibus💍 facilisis massa, sit amet posuere lacus bibendum et. Pellentesque sed velit faucibus, scelerisque ante auctor, placerat felis. Etiam laoreet nunc eget felis laoreet, vitae euismod nibh porttitor.👓 Sed rutrum odio ac sem pharetra hendrerit.",
+                "foto_postagem": "https://images.pexels.com/photos/1366883/pexels-photo-1366883.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            },
+            "curtidas_postagem": {
+                "quantidade_curtidas": 500,
+                "curti": true
+            },
+            "comentarios_postagem": {
+                "quantidade_comentarios": 500,
+                "Comentarios": [
+                    {
+                        "id_comentario": 1,
+                        "username": "felipe_domingos99",
+                        "comentario": "gostei muito da postagem"
+                    }
+                ]
+            }
+        },
+        {
+            "id_postagem": 6,
+            "name": "mochileiro",
             "username": "mochileiro",
             "foto_perfil_usuario": "https://images.pexels.com/photos/5234168/pexels-photo-5234168.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "data_postagem": "22/11/2022",
