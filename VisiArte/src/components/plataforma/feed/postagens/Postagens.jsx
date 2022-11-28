@@ -6,7 +6,7 @@ import icone_imagem from "../../../../img/icone_imagem.png";
 
 function Postagens({ data, minhaFoto }) {
     return (
-        <div>
+        <div className={styles.containerPostagens}>
             <div className={styles.criarPostagem}>
                 <img src={minhaFoto} alt="" className={styles.minhaFoto} />
                 <div className={styles.conteudoCriarPostagem}>
