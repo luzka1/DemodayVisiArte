@@ -8,7 +8,10 @@ function Cadastro() {
         <section className={Styles.fundo}>
             <LogoLogin className = {Styles.logoCadastro}/>
             <TelaDeLogin className = {Styles.telaCadastro}/>
-            <span className={Styles.crieSpan}>Crie uma conta</span>
+
+            <div className={Styles.divEsquerda}>
+                <span className={Styles.crieSpan}>CRIE UMA CONTA</span>
+            </div>
         </section>
     )
 }

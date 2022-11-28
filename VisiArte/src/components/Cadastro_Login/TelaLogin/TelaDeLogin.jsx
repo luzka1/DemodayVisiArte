@@ -9,16 +9,16 @@ function TelaDeLogin(props){
         <>
             <div className={`${Styles.DivMeio} ${props.className}`}>
                 <div className={Styles.MeioBaixo}>
-                    <h1 className={Styles.TextoIniciar}>Iniciar sessão</h1>
-                    <Escreva type ="text" placeholder ="E-MAIL OU USUÁRIO"/>
-                    <Escreva type ="password" placeholder ="SENHA"/>
+                    <h1 className={Styles.TextoIniciar}>{props.h1}</h1>
+                    <Escreva type ={props.type} placeholder ={props.placeholder}/>
+                    <Escreva type ={props.type} placeholder ={props.placeholder}/>
 
-                    <div className={Styles.Manter}>
+                    <div className={`${Styles.Manter} ${props.className1}`}>
                         <input type="checkbox" name="ManterLogin" id="ManterLogin" className={Styles.Login} />
-                        <label for="ManterLogin">Manter conectado</label>
+                        <label for="ManterLogin">{props.textCheck}</label>
                     </div>
 
-                    <BtnCadastroLogin Acessar = "" className={Styles.BtnLogin}/>
+                    <BtnCadastroLogin Acessar = {props.Acessar} className={Styles.BtnLogin}/>
         
                     <Link to="/" className={Styles.EsqSenha}>Esqueceu a senha?</Link>
         

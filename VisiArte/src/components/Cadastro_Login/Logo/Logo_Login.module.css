@@ -1,7 +1,7 @@
 .Logo{
     width: 22.5vw;
     height: 14vh;
-    margin-left: 3vw;
+    padding-left: 3vw;
     display: flex;
     align-items: flex-end;
 }
