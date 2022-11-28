@@ -1,8 +1,10 @@
 main {
     width: 90vw;
+    padding-top: 0.5rem;
     margin: auto;
-    height: 99vh;
-    background-color: #14101ff3;
+    height: 90vh;
+    
+    /* background-color: #c3b3b3; */
     backdrop-filter: blur(0.5rem);
     display: flex;
     position: relative;

@@ -8,8 +8,16 @@
 }
 
 .header .logo {
-    width: 125px;
-    height: 35px;
+    top: 9px;
+    left: 0;
+    position: absolute;
+    /* width: 350px; */
+    height: 45px;
+    transition: all 0.2s;
+}
+.header .logo:hover {
+    transform: scale(1.05);
+    
 }
 
 .pesquisa {
