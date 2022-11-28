@@ -26,7 +26,6 @@
 }
 .header .logo:hover {
     transform: scale(1.05);
-    
 }
 
 .pesquisa {
@@ -79,7 +78,7 @@
 }
 
 .modal {
-    height: 50vh;
+    height: fit-content;
     width: 50%;
     background-color: #fff;
     border-radius: 10px;
@@ -126,8 +125,42 @@
     overflow: hidden;
     resize: none;
     border: none;
+    outline: none;
+    box-shadow: 0 0 0 0;
 }
 
 .mainModal textarea:focus {
+    outline: none;
     border: none;
+    box-shadow: 0 0 0 0;
+}
+
+.footerModal {
+    padding-top: 1rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+}
+.footerModal img {
+    cursor: pointer;
+    width: 40px;
+}
+
+.footerModal div {
+    display: flex;
+    gap: 1rem;
+}
+
+.footerModal div button {
+    border-radius: 10px;
+    padding: 0.1rem 1rem;
+    cursor: pointer;
+}
+
+.footerModal .cancelar {
+    background-color: #f06024;
+}
+
+.footerModal .publicar {
+    background-color: #70dbe5;
 }
