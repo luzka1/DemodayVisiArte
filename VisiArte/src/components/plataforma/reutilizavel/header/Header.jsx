@@ -8,7 +8,7 @@ import icone_publicar from "../../../../img/icone_publicar.png";
 import icone_chat from "../../../../img/icone_chat.png";
 import icone_perfil from "../../../../img/icone_perfil.png";
 
-function Header({ setTextoPesquisa, textoPesquisa }) {
+function Header({ setTextoPesquisa, textoPesquisa, usuarioAtual }) {
     const navigate = useNavigate();
     return (
         <nav className={styles.header}>
@@ -19,7 +19,6 @@ function Header({ setTextoPesquisa, textoPesquisa }) {
             <form
                 onSubmit={(e) => {
                     e.preventDefault();
-                    console.log("kzsdbhszduhb");
                     let url = `/resultado/${textoPesquisa}`;
                     navigate(url);
                 }}
@@ -52,7 +51,7 @@ function Header({ setTextoPesquisa, textoPesquisa }) {
                     <img src={icone_chat} alt="" />
                 </Link>
 
-                <Link to="/feed">
+                <Link to={`/usuario/${usuarioAtual}`}>
                     <img src={icone_perfil} alt="" />
                 </Link>
             </div>

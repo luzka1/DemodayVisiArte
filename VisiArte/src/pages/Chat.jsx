@@ -6,12 +6,13 @@ import Amigos from "../components/plataforma/chat/Amigos.jsx";
 import BatePapo from "../components/plataforma/chat/BatePapo.jsx";
 import Header from "../components/plataforma/reutilizavel/header/Header";
 
-function Chat({ textoPesquisa, setTextoPesquisa }) {
+function Chat({ textoPesquisa, setTextoPesquisa, usuarioAtual }) {
     return (
         <>
             <Header
                 setTextoPesquisa={setTextoPesquisa}
                 textoPesquisa={textoPesquisa}
+                usuarioAtual={usuarioAtual}
             />
             <main>
                 <Amigos />

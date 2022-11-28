@@ -5,25 +5,29 @@ import Usuarios from "../data/descubra.json";
 import posts from "../data/postagens.json";
 import { useParams } from "react-router-dom";
 
-const Perfil = () => {
+const Perfil = ({ setTextoPesquisa, textoPesquisa, usuarioAtual }) => {
     let { usuario } = useParams();
     let postagensFiltradas = [];
 
     for (let i = 0; i < Usuarios.descubra_perfis.length; i++) {
-        if (Usuarios.descubra_perfis[i].username == usuario) {
+        if (Usuarios.descubra_perfis[i].username === usuario) {
             var user = Usuarios.descubra_perfis[i];
         }
     }
 
     for (let i = 0; i < posts.postagens.length; i++) {
-        if (posts.postagens[i].username == usuario) {
+        if (posts.postagens[i].username === usuario) {
             postagensFiltradas.push(posts.postagens[i]);
         }
     }
 
     return (
         <>
-            <Header />
+            <Header
+                setTextoPesquisa={setTextoPesquisa}
+                textoPesquisa={textoPesquisa}
+                usuarioAtual={usuarioAtual}
+            />
             <ContainerPerfil user={user} postagens={postagensFiltradas} />
         </>
     );

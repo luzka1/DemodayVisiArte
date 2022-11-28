@@ -2,11 +2,11 @@
     "descubra_perfis": [
         {
             "id_usuario": 1,
-            "foto_perfil": "https://images.pexels.com/photos/4471894/pexels-photo-4471894.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "foto_perfil": "https://images.pexels.com/photos/5234168/pexels-photo-5234168.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "foto_capa_usuario": "https://images.pexels.com/photos/2775196/pexels-photo-2775196.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            "name": "Rafaela Correia Melo",
-            "username": "rinha159",
-            "seguindo": true,
+            "name": "Kae Lucas",
+            "username": "mochileiro",
+            "seguindo": false,
             "bio": "Aliquam quis gravida enim, id consectetur enim. Fusce porttitor tincidunt justo nec scelerisque. Donec feugiat tortor sed mauris placerat semper. Curabitur placerat arcu eget lectus porta, a scelerisque turpis semper"
         },
         {
@@ -115,6 +115,15 @@
             "name": "Kauã Pinto Oliveira",
             "username": "TheUltraAbnormal",
             "seguindo": false,
+            "bio": "Aliquam quis gravida enim, id consectetur enim. Fusce porttitor tincidunt justo nec scelerisque. Donec feugiat tortor sed mauris placerat semper. Curabitur placerat arcu eget lectus porta, a scelerisque turpis semper"
+        },
+        {
+            "id_usuario": 14,
+            "foto_perfil": "https://images.pexels.com/photos/4471894/pexels-photo-4471894.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "foto_capa_usuario": "https://images.pexels.com/photos/2775196/pexels-photo-2775196.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "name": "Rafaela Correia Melo",
+            "username": "rinha159",
+            "seguindo": true,
             "bio": "Aliquam quis gravida enim, id consectetur enim. Fusce porttitor tincidunt justo nec scelerisque. Donec feugiat tortor sed mauris placerat semper. Curabitur placerat arcu eget lectus porta, a scelerisque turpis semper"
         }
     ]

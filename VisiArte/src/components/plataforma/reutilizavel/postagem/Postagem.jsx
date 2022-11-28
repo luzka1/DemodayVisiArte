@@ -7,10 +7,12 @@ import comentar from "../../../../img/comentar.png";
 function Postagem({ img_perfil, nome, img_postagem, texto, id }) {
     return (
         <div className={styles.postagem}>
-            <div className={styles.perfil}>
-                <img src={img_perfil} alt="" />
-                <span>{nome}</span>
-            </div>
+            <Link to={`/usuario/${nome}`}>
+                <div className={styles.perfil}>
+                    <img src={img_perfil} alt="" />
+                    <span>{nome}</span>
+                </div>
+            </Link>
             <Link to={`/postagem/${id}`}>
                 <p className={styles.descricao}>{texto}</p>
                 {img_postagem && (

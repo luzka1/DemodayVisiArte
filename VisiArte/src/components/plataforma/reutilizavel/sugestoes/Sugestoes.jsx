@@ -13,7 +13,11 @@ function Sugestoes({ data }) {
                         to={`/usuario/${user.username}`}
                         key={user.id_usuario}
                     >
-                        <Sugestao img={user.foto_perfil} nome={user.name} />
+                        <Sugestao
+                            img={user.foto_perfil}
+                            nome={user.name}
+                            username={user.username}
+                        />
                     </Link>
                 ))}
             </div>
