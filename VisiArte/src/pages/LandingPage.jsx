@@ -10,7 +10,6 @@ import Comentarios from "../components/landingpage/comentarios/Comentarios";
 import Footer from "../components/landingpage/footer/Footer";
 import { motion, useInView } from "framer-motion";
 import { useRef} from "react";
-import Vlibras from "../components/Vlibras/Vlibras"
 
 function LandingPage() {
 
@@ -19,8 +18,7 @@ function LandingPage() {
     const isInView = useInView(ref, { once: true });
 
     return (
-        <div className="ContainerLandingPage">
-            <Vlibras/>
+        <div className="ContainerLandingPage">          
             <Header />
             <Entrada />
             <SliderPrin />
