@@ -10,6 +10,7 @@ import Chat from "./pages/Chat";
 import FazerLogin from "./pages/FazerLogin";
 import FazerCadastro from "./pages/FazerCadastro";
 import SobreNos from "./pages/SobreNos";
+import Freelancer from "./pages/Freelancer";
 import Pesquisa from "./pages/Pesquisa";
 import NaoEncontrado from "./pages/NotFound";
 import Perfil from "./pages/Perfil";
@@ -24,7 +25,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<LandingPage />} />
                 <Route path="/SobreNos" element={<SobreNos />} />
-
+                <Route path="/Freelancer" element={<Freelancer />} />
                 <Route path="/login" element={<FazerLogin />} />
                 <Route path="/cadastro" element={<FazerCadastro />} />
 

@@ -13,7 +13,7 @@ function BatePapo() {
         <section id={styles.funcoes}>
           <input type="text" id={styles.textarea} />
           {/* <section id={styles.textarea}></section> */}
-          <section id={styles.send} >
+          <section  id={styles.send} >
           <img src="https://e7.pngegg.com/pngimages/841/271/png-clipart-computer-icons-send-miscellaneous-angle.png" alt="" />
           </section>
 

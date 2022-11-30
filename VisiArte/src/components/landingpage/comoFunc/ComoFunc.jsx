@@ -14,7 +14,7 @@ function ComoFunc() {
                 <div className={styles.comoFunc}>
                     <div className={styles.linhaExterna} />
 
-                    <div className={styles.imgCF}></div>
+                    <div className={styles.imgCF} ></div>
                     <div className={styles.textoCF}>
                         <motion.div className={styles.titCF}
                             ref={ref}

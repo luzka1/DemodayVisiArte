@@ -9,7 +9,7 @@ import APlataforma from "../components/landingpage/aPlataforma/APlataforma";
 import Comentarios from "../components/landingpage/comentarios/Comentarios";
 import Footer from "../components/landingpage/footer/Footer";
 import { motion, useInView } from "framer-motion";
-import { useRef} from "react";
+import { useRef } from "react";
 import Vlibras from "../components/Vlibras/Vlibras"
 
 function LandingPage() {
@@ -20,21 +20,23 @@ function LandingPage() {
 
     return (
         <div className="ContainerLandingPage">
-            <Vlibras/>
+            <Vlibras />
             <Header />
             <Entrada />
             <SliderPrin />
             <ComoFunc />
             <SobreNos />
-            <motion.div 
-            ref={ ref }
-            style={{
-                transform: isInView ? "none" : "translateY(10vh)",
-                opacity: isInView ? 1 : 0,
-                transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
-            }}>  
-            <TodaParte />
+
+            <motion.div
+                ref={ref}
+                style={{
+                    transform: isInView ? "none" : "translateY(10vh)",
+                    opacity: isInView ? 1 : 0,
+                    transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+                }}>
+                <TodaParte />
             </motion.div>
+            
             <APlataforma />
             <Comentarios />
             <Footer />
