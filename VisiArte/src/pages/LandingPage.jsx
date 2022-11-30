@@ -9,8 +9,12 @@ import APlataforma from "../components/landingpage/aPlataforma/APlataforma";
 import Comentarios from "../components/landingpage/comentarios/Comentarios";
 import Footer from "../components/landingpage/footer/Footer";
 import { motion, useInView } from "framer-motion";
+<<<<<<< HEAD
 import { useRef } from "react";
 import Vlibras from "../components/Vlibras/Vlibras"
+=======
+import { useRef} from "react";
+>>>>>>> fc60c7b508838115b2d8dc324634b018afb97df3
 
 function LandingPage() {
 
@@ -19,8 +23,12 @@ function LandingPage() {
     const isInView = useInView(ref, { once: true });
 
     return (
+<<<<<<< HEAD
         <div className="ContainerLandingPage">
             <Vlibras />
+=======
+        <div className="ContainerLandingPage">          
+>>>>>>> fc60c7b508838115b2d8dc324634b018afb97df3
             <Header />
             <Entrada />
             <SliderPrin />

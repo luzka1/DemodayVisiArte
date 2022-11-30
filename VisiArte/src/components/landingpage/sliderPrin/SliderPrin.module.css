@@ -46,4 +46,19 @@
     width: 250%;
     cursor: grab;
     margin-bottom: 5%;
+    transition: transform 0.5s ease-in-out;
+    animation: slide 20s infinite alternate;
+}
+
+@keyframes slide {
+    0%{
+        transform: translateX(0px);
+        
+    }
+    50%{
+        
+    }
+    100%{
+        transform: translateX(-2550px);
+    }
 }

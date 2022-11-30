@@ -8,12 +8,12 @@ import Sugestoes from "../reutilizavel/sugestoes/Sugestoes";
 function ConteudoFeed({ sugestoes, postagens, sobreMim }) {
     return (
         <div className={styles.conteudo_feed}>
-            <SobreMim data={sobreMim.sobre_mim} />
+            <SobreMim data={sobreMim} />
             <Postagens
                 data={postagens.postagens}
-                minhaFoto={sobreMim.sobre_mim.foto_perfil_usuario}
+                minhaFoto={sobreMim.foto_perfil}
             />
-            <Sugestoes data={sugestoes.descubra_perfis} />
+            <Sugestoes data={sugestoes} />
         </div>
     );
 }

@@ -2,12 +2,12 @@
     "descubra_perfis": [
         {
             "id_usuario": 1,
-            "foto_perfil": "https://images.pexels.com/photos/4471894/pexels-photo-4471894.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "foto_perfil": "https://images.pexels.com/photos/5234168/pexels-photo-5234168.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "foto_capa_usuario": "https://images.pexels.com/photos/2775196/pexels-photo-2775196.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            "name": "Rafaela Correia Melo",
-            "username": "rinha159",
-            "seguindo": true,
-            "bio": "Aliquam quis gravida enim, id consectetur enim. Fusce porttitor tincidunt justo nec scelerisque. Donec feugiat tortor sed mauris placerat semper. Curabitur placerat arcu eget lectus porta, a scelerisque turpis semper"
+            "name": "Kae Lucas",
+            "username": "mochileiro",
+            "seguindo": false,
+            "bio": "Aliquam quis gravida enim, id consectetur enim. Fusce porttitor tincidunt justo nec scelerisque. Donec feugiat tortor sed mauris placerat semper. Curabitur placerat arcu eget lectus porta, a scelerisque turpis semper, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sem dui, tincidunt a massa id, tincidunt aliquam sapien. Etiam vitae tellus quis tellus tincidunt porttitor vitae eu orci. Sed eu orci leo. Fusce dignissim nibh auctor, consequat massa quis, rhoncus purus. Quisque maximus aliquam tristique. Curabitur lobortis in dolor quis maximus. Nam pellentesque urna id neque mollis fringilla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sem dui, tincidunt a massa id, tincidunt aliquam sapien. Etiam vitae tellus quis tellus tincidunt porttitor vitae eu orci. Sed eu orci leo. Fusce dignissim nibh auctor, consequat massa quis, rhoncus purus. Quisque maximus aliquam tristique. Curabitur lobortis in dolor quis maximus. Nam pellentesque urna id neque mollis fringilla."
         },
         {
             "id_usuario": 2,
@@ -115,6 +115,15 @@
             "name": "Kauã Pinto Oliveira",
             "username": "TheUltraAbnormal",
             "seguindo": false,
+            "bio": "Aliquam quis gravida enim, id consectetur enim. Fusce porttitor tincidunt justo nec scelerisque. Donec feugiat tortor sed mauris placerat semper. Curabitur placerat arcu eget lectus porta, a scelerisque turpis semper"
+        },
+        {
+            "id_usuario": 14,
+            "foto_perfil": "https://images.pexels.com/photos/4471894/pexels-photo-4471894.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "foto_capa_usuario": "https://images.pexels.com/photos/2775196/pexels-photo-2775196.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "name": "Rafaela Correia Melo",
+            "username": "rinha159",
+            "seguindo": true,
             "bio": "Aliquam quis gravida enim, id consectetur enim. Fusce porttitor tincidunt justo nec scelerisque. Donec feugiat tortor sed mauris placerat semper. Curabitur placerat arcu eget lectus porta, a scelerisque turpis semper"
         }
     ]

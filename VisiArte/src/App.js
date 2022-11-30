@@ -1,6 +1,7 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React from "react";
+import descubra from "./data/descubra.json";
 
 // PAGINAS -------------------------------
 
@@ -14,12 +15,13 @@ import Freelancer from "./pages/Freelancer";
 import Pesquisa from "./pages/Pesquisa";
 import NaoEncontrado from "./pages/NotFound";
 import Perfil from "./pages/Perfil";
-import Vlibras from "./components/Vlibras/Vlibras";
 
 // -------------------------------
 
 function App() {
     const [textoPesquisa, setTextoPesquisa] = React.useState("");
+    const [usuarioAtual, setUsuarioAtual] = React.useState("");
+
     return (
         <BrowserRouter>
             <Routes>
@@ -36,6 +38,8 @@ function App() {
                         <Feed
                             setTextoPesquisa={setTextoPesquisa}
                             textoPesquisa={textoPesquisa}
+                            usuarioAtual={usuarioAtual}
+                            setUsuarioAtual={setUsuarioAtual}
                         />
                     }
                 />
@@ -46,6 +50,8 @@ function App() {
                         <Chat
                             setTextoPesquisa={setTextoPesquisa}
                             textoPesquisa={textoPesquisa}
+                            usuarioAtual={usuarioAtual}
+                            setUsuarioAtual={setUsuarioAtual}
                         />
                     }
                 />
@@ -56,6 +62,8 @@ function App() {
                         <Perfil
                             setTextoPesquisa={setTextoPesquisa}
                             textoPesquisa={textoPesquisa}
+                            usuarioAtual={usuarioAtual}
+                            setUsuarioAtual={setUsuarioAtual}
                         />
                     }
                 />
@@ -66,6 +74,8 @@ function App() {
                         <Pesquisa
                             setTextoPesquisa={setTextoPesquisa}
                             textoPesquisa={textoPesquisa}
+                            usuarioAtual={usuarioAtual}
+                            setUsuarioAtual={setUsuarioAtual}
                         />
                     }
                 />
@@ -77,6 +87,8 @@ function App() {
                         <NaoEncontrado
                             setTextoPesquisa={setTextoPesquisa}
                             textoPesquisa={textoPesquisa}
+                            usuarioAtual={usuarioAtual}
+                            setUsuarioAtual={setUsuarioAtual}
                         />
                     }
                 />
@@ -86,6 +98,8 @@ function App() {
                         <NaoEncontrado
                             setTextoPesquisa={setTextoPesquisa}
                             textoPesquisa={textoPesquisa}
+                            usuarioAtual={usuarioAtual}
+                            setUsuarioAtual={setUsuarioAtual}
                         />
                     }
                 />
@@ -95,6 +109,8 @@ function App() {
                         <NaoEncontrado
                             setTextoPesquisa={setTextoPesquisa}
                             textoPesquisa={textoPesquisa}
+                            usuarioAtual={usuarioAtual}
+                            setUsuarioAtual={setUsuarioAtual}
                         />
                     }
                 />
