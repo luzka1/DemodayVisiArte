@@ -11,16 +11,13 @@ import Footer from "../components/landingpage/footer/Footer";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
-
 function LandingPage() {
-
     const ref = useRef(null);
 
     const isInView = useInView(ref, { once: true });
 
     return (
         <div className="ContainerLandingPage">
-
             <Header />
             <Entrada />
             <SliderPrin />
@@ -32,11 +29,13 @@ function LandingPage() {
                 style={{
                     transform: isInView ? "none" : "translateY(10vh)",
                     opacity: isInView ? 1 : 0,
-                    transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
-                }}>
+                    transition:
+                        "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
+                }}
+            >
                 <TodaParte />
             </motion.div>
-            
+
             <APlataforma />
             <Comentarios />
             <Footer />
