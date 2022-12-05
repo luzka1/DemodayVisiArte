@@ -4,10 +4,12 @@ import styles from "./ConteudoFeed.module.css";
 import SobreMim from "./sobreMim/SobreMim";
 import Postagens from "./postagens/Postagens";
 import Sugestoes from "../reutilizavel/sugestoes/Sugestoes";
+import Notificacao from "../../Notificacao/Notificacao";
 
 function ConteudoFeed({ sugestoes, postagens, sobreMim }) {
     return (
         <div className={styles.conteudo_feed}>
+            <Notificacao />
             <SobreMim data={sobreMim} />
             <Postagens
                 data={postagens.postagens}
