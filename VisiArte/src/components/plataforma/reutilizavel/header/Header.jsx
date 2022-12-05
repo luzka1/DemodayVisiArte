@@ -7,6 +7,7 @@ import icone_home from "../../../../img/icone_home.png";
 import icone_publicar from "../../../../img/icone_publicar.png";
 import icone_chat from "../../../../img/icone_chat.png";
 import icone_perfil from "../../../../img/icone_perfil.png";
+import icone_notificacao from "../../../../img/icone_notificacao.png";
 import usuarios from "../../../../data/descubra.json";
 
 function Modal({ abrir, setModal, usuarioAtual }) {
@@ -122,6 +123,10 @@ function Header({ setTextoPesquisa, textoPesquisa, usuarioAtual }) {
                     </form>
 
                     <div className={styles.navegacao}>
+                        <Link to="/feed">
+                            <img src={icone_notificacao} alt="" />
+                        </Link>
+
                         <Link to="/feed">
                             <img src={icone_home} alt="" />
                         </Link>
