@@ -70,8 +70,6 @@ function Header({ setTextoPesquisa, textoPesquisa, usuarioAtual }) {
                 <nav className={styles.header}>
                     <Link to="/feed">
                         <svg
-                            width="328"
-                            height="70"
                             viewBox="0 0 328 70"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"

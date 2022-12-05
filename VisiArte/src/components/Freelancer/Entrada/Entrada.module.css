@@ -12,9 +12,9 @@
     margin-left: 5%;
     font-size: 5.5vh;
     color: white;
-    width: 55%;
     text-align: left;
     justify-content: flex-start;
+    gap:1vw;
 }
 .logo{
     height: auto;

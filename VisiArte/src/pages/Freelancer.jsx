@@ -5,6 +5,8 @@ import Header from "../components/plataforma/reutilizavel/header/Header";
 import Entrada from "../components/Freelancer/Entrada/Entrada";
 import Categorias from "../components/Freelancer/Categorias/Categorias";
 import Footer from "../components/landingpage/footer/Footer";
+import Comunidade from "../components/Freelancer/Comunidade/Comunidade";
+import Usuarios from "../components/Freelancer/Usuarios/Usuarios"
 
 function Freelancer() {
 
@@ -16,7 +18,9 @@ function Freelancer() {
         <div >
             <Header />
             <Entrada />
-            <Categorias />
+           <Categorias />
+           <Comunidade />
+           <Usuarios />
             <Footer />
         </div>
     );

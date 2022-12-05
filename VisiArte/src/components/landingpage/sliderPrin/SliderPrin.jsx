@@ -26,7 +26,7 @@ function SliderPrin() {
                     transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
                   }}>
                     {" "}
-                    <h1>Fique por dentro do que tratamos no nosso site</h1>
+                    <h1>Artes para inspirações</h1>
                 </motion.div>
 
                 <motion.div className={styles.conteudoo}>

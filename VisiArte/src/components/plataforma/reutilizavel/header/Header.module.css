@@ -8,7 +8,7 @@
     height: 4.5rem;
     position: fixed;
     top: 0;
-    z-index: 3;
+    z-index: 5;
 }
 
 .header_falsa {
@@ -19,9 +19,8 @@
 .header .logo {
     top: 9px;
     left: 0;
-    position: absolute;
-    /* width: 350px; */
-    height: 45px;
+    width: 100%;
+    height: 2vw;
     transition: all 0.2s;
 }
 .header .logo:hover {

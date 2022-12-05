@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./ConteudoFeed.module.css";
-
 import SobreMim from "./sobreMim/SobreMim";
 import Postagens from "./postagens/Postagens";
 import Sugestoes from "../reutilizavel/sugestoes/Sugestoes";
