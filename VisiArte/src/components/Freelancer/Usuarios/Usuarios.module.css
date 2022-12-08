@@ -20,12 +20,16 @@
     height: 100%;
 }
 .nome{
-    padding: 3% 2% 3% 2%;
-    
+    padding: 1% 0 1% 0;
+    font-size: 3vh;
+    text-align: center;
 }
 .comentario{
     padding: 3% 2% 3% 2%;
-    font-size: 1.5vh;
+    font-size: 2vh;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
     font-family: poppins-l;
 }
 .pontuacao{
@@ -33,7 +37,7 @@
     padding: 3% 2% 3% 2%;
     align-items: center;
     gap: 1vw;
-    height: 6vh;
+    justify-content: center;
 }
 .simbolo{
     font-size: 5vh;

@@ -1,45 +1,123 @@
-.fundo{
-    width: 100vw;
-    height: 100vh;
+.container {
     background-image: url(../../../img/FundoLogin.png);
-    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
     background-size: cover;
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 50vh 50vh;
-    grid-template-areas:
-                    "L C"
-                    "B C"   ;
-    
 }
 
-.logoCadastro{
-    grid-area: L;
-    width: 50vw;
-    padding: 17vh 0 0 5vw;
+.innerContainer {
+    display: flex;
+    padding: 2%;
+
 }
 
-.divEsquerda{
-    grid-area: B;
-    padding-left: 5vw;
+.logo {
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.logotipo {
+    display: flex;
+    color: #fff;
+    align-items: center;
+    font-size: 7vh;
+    font-family: nasa;
+}
+
+.logo svg {
+    width: 8vw;
+    height: 8vh;
+}
+
+.esquerda {
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+    flex-direction: column;
+    width: 50%;
+}
+
+.crie {
+    color: #fff;
+    font-size: 10vh;
+    width: 60%;
+}
+
+.direita {
+    background-color: rgba(240, 248, 255, 0);
+    height: 90vh;
+    width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: end;
-    width: 50vw;
+    align-items: center;
+}
+.controlador{
+    width: 90%;
+    height: 1.5vh;
+    background-color: rgb(238, 238, 238);
+    margin:0  0 1vh 0;
+}
+.controlador div{
+    background-color: #0072EE;
+    height: 100%;
 }
 
-.crieSpan{
-    color: #ffffff;
-    font-size: 13vh;
-    line-height: 13vh;
-    padding-bottom: 7vh;
+.boxCadastro {
+    background-color: rgb(238, 238, 238);
+    width: 90%;
+    margin: 0 auto;
+
 }
 
-.telaCadastro{
-    /* background-color: #fd82dd; */
+.titulo {
+    width: 90%;
     display: flex;
-    flex-direction: column;
-    align-items: end;
-    width:42vw;
-    grid-area: C;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vh;
+    height: 10vh;
+    margin: 0 auto;
+}
+
+.comp {
+    min-height: 55vh;
+}
+
+.contFixo {
+    background-color: rgb(238, 238, 238);
+    width: 90%;
+    margin: 0 auto;
+}
+
+.btn {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn button {
+    border: 0.3vh solid rgb(75, 75, 75);
+    font-size: 3vh;
+    padding: 5%;
+    border-radius: 0.5vh;
+    color: rgb(75, 75, 75);
+    transition: all 200ms;
+    text-transform: uppercase;
+}
+
+.btn button:hover {
+    color: #fff;
+    background-color: #0072EE;
+    border-color: #fff;
+    cursor: pointer;
+}
+
+.aviso {
+    font-size: 2.5vh;
+    color: rgb(75, 75, 75);
+    display: flex;
+    justify-content: center;
+    padding: 5%;
 }
