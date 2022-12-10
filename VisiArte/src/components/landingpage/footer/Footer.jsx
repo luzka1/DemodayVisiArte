@@ -21,10 +21,11 @@ function Footer() {
                 <div className={styles.item}><text>Como Funcionamos?</text></div>
                 <div className={styles.item}><text>Contatos</text></div>
                 </div>
-
+                    <div className={styles.redes}>
                 <div className={styles.redesocial}><img src={facebook} alt="Logo Facebook"></img></div>
                 <div className={styles.redesocial}><img src={insta} alt="Logo Instagram"></img></div>
                 <div className={styles.redesocial}><img className={styles.tt}src={twitter} alt="Logo Twitter"></img></div>
+            </div>
             </div>
 
             <div className={styles.bottom}>

@@ -28,8 +28,8 @@ function Comentarios() {
                 <div className={styles.comentarios}>
 
                     <motion.div className={styles.box}
-                        whileHover={{ scale: [null, 1.2, 1.1] }}
-                        whileTap={{ scale: 0.8 }}
+                        whileHover={{ scale: [null, 1, 1.1] }}
+                        whileTap={{ scale: 0.9 }}
                         transition={{ duration: 0.3, type: "spring", stiffness: 400, damping: 50 }}
                     >
                         <div className={styles.top}>
@@ -43,8 +43,8 @@ function Comentarios() {
                     </motion.div>
 
                     <motion.div className={styles.box}
-                        whileHover={{ scale: [null, 1.2, 1.1] }}
-                        whileTap={{ scale: 0.8 }}
+                        whileHover={{ scale: [null, 1, 1.1] }}
+                        whileTap={{ scale: 0.9 }}
                         transition={{ duration: 0.3, type: "spring", stiffness: 400, damping: 50 }}
                     >
                         <div className={styles.top}>
@@ -58,8 +58,8 @@ function Comentarios() {
                     </motion.div>
 
                     <motion.div className={styles.box}
-                        whileHover={{ scale: [null, 1.2, 1.1] }}
-                        whileTap={{ scale: 0.8 }}
+                        whileHover={{ scale: [null, 1 ,1.1] }}
+                        whileTap={{ scale: 0.9 }}
                         transition={{ duration: 0.3, type: "spring", stiffness: 400, damping: 50 }}
                     >
                         <div className={styles.top}>

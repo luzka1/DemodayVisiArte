@@ -44,25 +44,66 @@
     width: 7vh;
     height: 7vh;
 }
+.redes{
+    display: flex;
+    width: auto;
+}
 .redesocial{
     padding: 0.5%;
     cursor: pointer;
-    width: 5%;
+    width: 100%;
     height: auto;
 }
 .redesocial img{
-    width: 80%;
+    width: 90%;
+    height: 90%;
 }
-.tt{
-    height: 100%;
-}
+
 .bottom{
     color: #fff;
     text-align: center;
     padding: 2% 0 5% 0;
     line-height: 3vh;
 }
+.bottom p {
+    font-size: 1.8vh;
+}
 .contato{
     font-family: poppins-l;
-    font-size: large;
+    font-size: 2vh;
+}
+@media only screen and (max-width:480px) {
+    .top{
+        flex-direction: column;
+    }
+    .items{
+        flex-direction: column;
+        text-align: center;
+    }
+    .redes {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width:481px) {
+
+    @media only screen and (max-width:768px) {
+        .top{
+            flex-direction: column;
+        }
+        .items{
+            flex-direction: column;
+            text-align: center;
+        }
+        .redes {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+}
+
+@media only screen and (min-width:769px) {
+
+    @media only screen and (max-width:1200px) {}
 }
