@@ -15,7 +15,8 @@ function Cadastro1({formData, setFormData}) {
                     <input name="email" type="text" placeholder="E-MAIL / USUÁRIO" 
                      value={formData.email}
                      onChange={(event ) => 
-                     setFormData({...formData, email:event.target.value})}/>
+                     setFormData({...formData, email:event.target.value})}
+                     required/>
                      
                     <div className={styles.checkbox}>
                         <input type="checkbox" />

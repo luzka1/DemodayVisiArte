@@ -73,7 +73,6 @@ nav div{
     font-weight: 500;
     color: #F16125;
     border-radius: 2.5vh;
-    width:120%;
     height: 5vh;
     display: flex;
     align-items: center;
@@ -81,9 +80,48 @@ nav div{
     border: 0.3vh solid #F16125;
     text-transform: uppercase;
     transition: 200ms all;
+    width: 140%;
 }
 .btnlogin:hover{
     background-color: #F16125;
     cursor: pointer;
     color: #fff;
+}
+
+@media only screen and (max-width:480px) {
+    .header{
+        flex-direction: row;
+        height: auto;
+    }
+    
+    .conteudo{
+        display: none;
+    }
+}
+@media only screen and (min-width:481px){
+
+    @media only screen and (max-width:768px){
+        .header{
+            flex-direction: row;
+            height: auto;
+        }
+        
+        .conteudo{
+            display: none;
+        }
+       
+}
+}
+@media only screen and (min-width:769px){
+
+    @media only screen and (max-width:1200px){
+        
+        .conteudo{
+            width: 200%;
+        }
+        .btnlogin{
+            width: 200%;
+        }
+       
+}
 }

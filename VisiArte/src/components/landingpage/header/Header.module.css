@@ -40,6 +40,7 @@ nav div{
     -webkit-text-fill-color: transparent;
     background-size: 300% 300%;
     animation: colors 5s ease infinite;
+
     
 }
 @keyframes colors {
@@ -86,4 +87,51 @@ nav div{
     background-color: #F16125;
     cursor: pointer;
     color: #fff;
+}
+@media only screen and (max-width:480px) {
+    .header{
+        flex-direction: row;
+        height: auto;
+    }
+    .btnlogin{
+        width: 40%;
+    }
+    .conteudo{
+        display: none;
+    }
+}
+@media only screen and (min-width:481px){
+
+    @media only screen and (max-width:768px){
+        .header{
+            flex-direction: row;
+            height: auto;
+        }
+        
+        .conteudo{
+            display: none;
+        }
+        .btnlogin{
+            width: 40%;
+        }
+}
+}
+@media only screen and (min-width:769px){
+
+    @media only screen and (max-width:1200px){
+        .header{
+            width: 85%;
+            left: 5%;
+        }
+
+        .conteudo{
+            width: 200%;
+            
+        }
+        .btnlogin{
+            width: 40%;
+            font-size: 1.5vh;
+        }
+       
+}
 }

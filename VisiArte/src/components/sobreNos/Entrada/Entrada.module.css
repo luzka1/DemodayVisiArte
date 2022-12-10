@@ -28,3 +28,23 @@
 .titEntrada{
     font-size: 9vh;
 }
+
+@media only screen and (max-width:480px) {
+    .titEntrada{
+        font-size: 6vh;
+    }
+}
+@media only screen and (min-width:481px){
+
+    @media only screen and (max-width:768px){
+        .titEntrada{
+            font-size: 7vh;
+        }
+}
+}
+@media only screen and (min-width:769px){
+
+    @media only screen and (max-width:1200px){
+        
+}
+}

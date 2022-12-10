@@ -70,3 +70,46 @@
     font-size: 1.8vh;
     height: 30vh;
 }
+@media only screen and (max-width:480px) {
+   .titulo{
+    font-size: 2vh;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+   }
+   .comentarios{
+    display: flex;
+    flex-direction: column;
+    gap: 6vh;
+   }
+    .box{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width:481px) {
+
+    @media only screen and (max-width:768px) {
+        .titulo{
+            font-size: 5vh;
+            width: 90%;
+            margin: 0 auto;
+            text-align: center;
+           }
+           .comentarios{
+            display: flex;
+            flex-direction: column;
+            gap: 6vh;
+            width: 70%;
+           }
+            .box{
+                width: 100%;
+            }
+    }
+}
+
+@media only screen and (min-width:769px) {
+
+    @media only screen and (max-width:1200px) {}
+}

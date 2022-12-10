@@ -20,3 +20,23 @@
     text-align: left;
     padding-bottom: 5%;
 }
+@media only screen and (max-width:480px) {
+   .titulo{
+    font-size: 4vh;
+   }
+   .texto{
+    font-size: 2vh;
+   }
+}
+@media only screen and (min-width:481px){
+
+    @media only screen and (max-width:768px){
+        
+}
+}
+@media only screen and (min-width:769px){
+
+    @media only screen and (max-width:1200px){
+        
+}
+}
