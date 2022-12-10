@@ -42,6 +42,7 @@
     color: #fff;
     font-size: 10vh;
     width: 60%;
+    line-height: 5vw;
 }
 
 .direita {
@@ -51,9 +52,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 1%;
 }
 .controlador{
-    width: 90%;
+    width: 80%;
     height: 1.5vh;
     background-color: rgb(238, 238, 238);
     margin:0  0 1vh 0;
@@ -65,23 +67,26 @@
 
 .boxCadastro {
     background-color: rgb(238, 238, 238);
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
-
 }
 
 .titulo {
-    width: 90%;
+    width: 80%;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     font-size: 4vh;
+    padding: 15% 0 0 0;
     height: 10vh;
     margin: 0 auto;
+    font-weight: 1000;
 }
 
 .comp {
-    min-height: 55vh;
+    margin-top: 5%;
+    min-height: 53vh;
+    max-height: 55vh;
 }
 
 .contFixo {

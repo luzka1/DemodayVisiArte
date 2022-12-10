@@ -10,6 +10,10 @@ function Cadastro3({formData, setFormData}) {
 
             <div className={styles.formulario}>
 
+            <div className={styles.subtitulo}>
+                    Precisamos de um usuário para te identificar!
+                </div>
+
                 <form >
                     <input name="user" type="text" placeholder="NOME DE USUÁRIO" 
                     value={formData.user}
@@ -20,10 +24,7 @@ function Cadastro3({formData, setFormData}) {
                     value={formData.name}
                     onChange={(event ) => 
                     setFormData({...formData, name:event.target.value})}/>
-                    <div className={styles.checkbox}>
-                        <input type="checkbox" />
-                        <text>Quer receber notícias, atualizações diretamente no seu e-mail?</text>
-                    </div>
+                
            
         </form>
 

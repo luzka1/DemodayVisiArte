@@ -13,18 +13,18 @@ function Cadastro() {
 
     const PageDisplay = () => {
         if (page == 0) {
-            return <Cadastro1  formData={formData} setFormData={setFormData}/>
+            return <Cadastro1 formData={formData} setFormData={setFormData} />
         } else if (page == 1) {
-            return <Cadastro2 formData={formData} setFormData={setFormData}/>
+            return <Cadastro2 formData={formData} setFormData={setFormData} />
         } else if (page == 2) {
-            return <Cadastro3 formData={formData} setFormData={setFormData}/>
+            return <Cadastro3 formData={formData} setFormData={setFormData} />
         } else {
-            return <Cadastro4 formData={formData} setFormData={setFormData}/>
+            return <Cadastro4 formData={formData} setFormData={setFormData} />
         }
     };
 
-    const [formData, setFormData] = useState ({
-        email : "",
+    const [formData, setFormData] = useState({
+        email: "",
         date: "",
         user: "",
         name: "",
@@ -57,9 +57,9 @@ function Cadastro() {
                 </div>
                 <div className={styles.direita}>
                     <div className={styles.controlador}>
-                        <div style={{width: page === 0 ? "25%" : page === 1 ? "50%" : page === 2 ? "75%" : "100%"}}></div>
+                        <div style={{ width: page === 0 ? "25%" : page === 1 ? "50%" : page === 2 ? "75%" : "100%" }}></div>
                     </div>
-                        
+
                     <div className={styles.boxCadastro}>
 
                         <div className={styles.titulo}>{FormTitles[page]}</div>
@@ -79,15 +79,15 @@ function Cadastro() {
                                 </button>
 
                                 <button
-                                    
+
                                     onClick={() => {
-                                        if (page == FormTitles.length - 1){
+                                        if (page == FormTitles.length - 1) {
                                             alert("Enviado com Sucesso!")
                                             console.log(formData);
-                                        }else{
+                                        } else {
                                             setPage((currPage) => currPage + 1)
                                         }
-                                       
+
                                     }}>
                                     {page === FormTitles.length - 1 ? "Enviar" : "próximo"}
                                 </button>

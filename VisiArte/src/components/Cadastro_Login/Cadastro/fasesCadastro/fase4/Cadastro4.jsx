@@ -21,11 +21,7 @@ function Cadastro4({formData, setFormData}) {
                     value={formData.confirmPassoword}
                     onChange={(event ) => 
                     setFormData({...formData, confirmPassoword:event.target.value})}/>
-                    <div className={styles.checkbox}>
-                        <input type="checkbox" />
-                        <text>Quer receber notícias, atualizações diretamente no seu e-mail?</text>
-                    </div>
-           
+                    
         </form>
 
            </div >
