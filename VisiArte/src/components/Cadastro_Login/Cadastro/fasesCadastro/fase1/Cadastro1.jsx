@@ -12,7 +12,7 @@ function Cadastro1({formData, setFormData}) {
             <div className={styles.formulario}>
 
                 <form >
-                    <input name="email" type="text" placeholder="E-MAIL / USUÁRIO" 
+                    <input name="email" type="text" placeholder="E-MAIL" 
                      value={formData.email}
                      onChange={(event ) => 
                      setFormData({...formData, email:event.target.value})}

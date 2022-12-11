@@ -3,13 +3,6 @@
     width: 90%;
     margin: 0 auto;
 }
-.titulo{
-    width: 90%;
-    display: flex;
-    align-items: center;
-    font-size: 4vh;
-    height: 20vh;
-}
 .formulario{
     width: 90%;
     margin: 0 auto;
@@ -43,4 +36,22 @@
     color: rgb(94, 94, 94);
     display: flex;
     align-items: center;
+}
+@media only screen and (max-width:480px) {
+    .checkbox text{
+        font-size: 2.5vh;
+        
+    }
+}
+
+@media only screen and (min-width:481px) {
+
+    @media only screen and (max-width:768px) {
+        
+    }
+}
+
+@media only screen and (min-width:769px) {
+
+    @media only screen and (max-width:1200px) {}
 }

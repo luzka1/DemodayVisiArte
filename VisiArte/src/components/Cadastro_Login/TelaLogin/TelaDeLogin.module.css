@@ -105,3 +105,26 @@
 .CrieConta:hover:after{
     width: 100%;
 }
+@media only screen and (max-width:480px) {
+    .MeioBaixo{
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width:481px) {
+
+    @media only screen and (max-width:768px) {
+        .MeioBaixo{
+            width: 80%;
+        }
+    }
+}
+
+@media only screen and (min-width:769px) {
+
+    @media only screen and (max-width:1200px) {
+        .MeioBaixo{
+            width: 50%;
+        }
+    }
+}

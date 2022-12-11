@@ -4,6 +4,7 @@ import Cadastro2 from "./fasesCadastro/fase2/Cadastro2";
 import Cadastro3 from "./fasesCadastro/fase3/Cadastro3";
 import Cadastro4 from "./fasesCadastro/fase4/Cadastro4";
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Cadastro() {
 
@@ -36,7 +37,8 @@ function Cadastro() {
         <div className={styles.container}>
             <div className={styles.innerContainer}>
                 <div className={styles.esquerda}>
-                    <div className={styles.logo}>
+                    
+                    <Link to = "/"className={styles.logo}>
                         <div className={styles.logotipo}>
                             <svg
                                 viewBox="0 0 43 33"
@@ -51,9 +53,10 @@ function Cadastro() {
                             </svg>
                             VisiArte
                         </div>
+                    </Link>
+                    <div className={styles.centroCrie}>
+                        <div className={styles.crie}>CRIE UMA CONTA</div>
                     </div>
-                    <div className={styles.crie}>CRIE UMA CONTA</div>
-
                 </div>
                 <div className={styles.direita}>
                     <div className={styles.controlador}>
@@ -94,7 +97,7 @@ function Cadastro() {
                             </div>
 
                             <div className={styles.aviso}>
-                                Já possui uma conta?
+                                <Link to="/login" className={styles.textAviso}>Já possui uma conta?</Link>
                             </div>
                         </div>
                     </div>
