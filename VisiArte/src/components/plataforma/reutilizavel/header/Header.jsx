@@ -9,6 +9,7 @@ import icone_chat from "../../../../img/icone_chat.png";
 import icone_perfil from "../../../../img/icone_perfil.png";
 import icone_notificacao from "../../../../img/icone_notificacao.png";
 import usuarios from "../../../../data/descubra.json";
+import Notificacao from "../../../Notificacao/Notificacao";
 
 function Modal({ abrir, setModal, usuarioAtual }) {
     const [foto, setFoto] = React.useState("");
@@ -65,6 +66,7 @@ function Modal({ abrir, setModal, usuarioAtual }) {
 function Header({ setTextoPesquisa, textoPesquisa, usuarioAtual }) {
     const navigate = useNavigate();
     const [modal, setModal] = React.useState(false);
+    const [notificacao, setNotificacao] = React.useState(false);
     return (
         <>
             <div>
@@ -121,9 +123,9 @@ function Header({ setTextoPesquisa, textoPesquisa, usuarioAtual }) {
                     </form>
 
                     <div className={styles.navegacao}>
-                        <Link to="/feed">
+                        <a onClick={() => setNotificacao((not) => !not)}>
                             <img src={icone_notificacao} alt="" />
-                        </Link>
+                        </a>
 
                         <Link to="/feed">
                             <img src={icone_home} alt="" />
@@ -145,6 +147,7 @@ function Header({ setTextoPesquisa, textoPesquisa, usuarioAtual }) {
                         </Link>
                     </div>
                 </nav>
+                <Notificacao abrir={notificacao} />
                 <div className={styles.header_falsa}></div>
             </div>
             <Modal

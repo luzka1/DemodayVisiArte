@@ -45,7 +45,18 @@ function App() {
                 />
 
                 <Route
-                    path="/chat"
+                    path="/chat/"
+                    element={
+                        <Chat
+                            setTextoPesquisa={setTextoPesquisa}
+                            textoPesquisa={textoPesquisa}
+                            usuarioAtual={usuarioAtual}
+                            setUsuarioAtual={setUsuarioAtual}
+                        />
+                    }
+                />
+                <Route
+                    path="/chat/:username"
                     element={
                         <Chat
                             setTextoPesquisa={setTextoPesquisa}

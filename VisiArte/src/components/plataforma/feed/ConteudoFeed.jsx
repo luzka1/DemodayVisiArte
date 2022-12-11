@@ -8,7 +8,6 @@ import Notificacao from "../../Notificacao/Notificacao";
 function ConteudoFeed({ sugestoes, postagens, sobreMim }) {
     return (
         <div className={styles.conteudo_feed}>
-            <Notificacao />
             <SobreMim data={sobreMim} />
             <Postagens
                 data={postagens.postagens}

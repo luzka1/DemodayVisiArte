@@ -1,47 +1,47 @@
-.intComp{
+.intComp {
     width: 100%;
     height: 12vh;
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 40% 60%;
-    grid-template-areas: 
-                "a b"
-                "a c";
+    grid-template-areas:
+        "a b"
+        "a c";
 }
 
-.containerDivImg{
+.containerDivImg {
     grid-area: a;
     display: flex;
     flex-direction: row;
     justify-content: end;
 }
 
-.divImg{
+.divImg {
     width: 80%;
     height: 80%;
     background-color: blueviolet;
 }
 
-.divNome{
+.divNome {
     display: flex;
     flex-direction: row;
     align-items: center;
     grid-area: b;
 }
 
-.nome{
-    color: #F06024;
+.nome {
+    color: #f06024;
     padding-left: 4%;
 }
 
-.divConteudo{
+.divConteudo {
     grid-area: c;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.conteudo{
+.conteudo {
     font-size: 16px;
-    width: 92%
+    width: 92%;
 }

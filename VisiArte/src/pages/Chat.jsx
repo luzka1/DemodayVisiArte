@@ -1,9 +1,5 @@
 import React from "react";
-import styles from "../components/plataforma/chat/css/Chat.module.css";
-import bg from "../img/bg.jpg";
-//============================================ Importando CSS como styles ============================================
-import Amigos from "../components/plataforma/chat/Amigos.jsx";
-import BatePapo from "../components/plataforma/chat/BatePapo.jsx";
+import ContainerChat from "../components/plataforma/chat/ContainerChat";
 import Header from "../components/plataforma/reutilizavel/header/Header";
 
 function Chat({ textoPesquisa, setTextoPesquisa, usuarioAtual }) {
@@ -15,8 +11,7 @@ function Chat({ textoPesquisa, setTextoPesquisa, usuarioAtual }) {
                 usuarioAtual={usuarioAtual}
             />
             <main>
-                <Amigos />
-                <BatePapo />
+                <ContainerChat />
             </main>
         </>
     );
