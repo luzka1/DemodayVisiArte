@@ -16,10 +16,10 @@
 }
 
 .perfil {
-    width: 125px;
-    height: 125px;
+    width: 175px;
+    height: 175px;
     border-radius: 50%;
-    top: -2rem;
+    top: -4rem;
     position: relative;
     border: 8px solid #174056;
 }
