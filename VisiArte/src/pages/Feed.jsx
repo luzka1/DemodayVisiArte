@@ -3,6 +3,7 @@ import Header from "../components/plataforma/reutilizavel/header/Header";
 import ConteudoFeed from "../components/plataforma/feed/ConteudoFeed";
 import postagens from "../data/postagens.json";
 import descubra from "../data/descubra.json";
+import { URL_SITE } from "../API";
 
 function Feed({
     textoPesquisa,
@@ -10,6 +11,11 @@ function Feed({
     usuarioAtual,
     setUsuarioAtual,
 }) {
+
+    if (!localStorage.getItem("usuarioLogado")) {
+        window.location.href = `${URL_SITE}/login`
+    }
+
     var sugestoes = [];
     var usuAtual = [];
 

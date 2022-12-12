@@ -4,8 +4,13 @@ import ContainerPerfil from "../components/plataforma/perfil/ContainerPerfil";
 import Usuarios from "../data/descubra.json";
 import posts from "../data/postagens.json";
 import { useParams } from "react-router-dom";
+import { URL_SITE } from "../API";
 
 const Perfil = ({ setTextoPesquisa, textoPesquisa, usuarioAtual }) => {
+    if (!localStorage.getItem("usuarioLogado")) {
+        window.location.href = `${URL_SITE}/login`
+    }
+    
     let { usuario } = useParams();
     let postagensFiltradas = [];
 
