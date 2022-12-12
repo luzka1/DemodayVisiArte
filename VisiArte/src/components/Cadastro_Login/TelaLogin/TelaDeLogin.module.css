@@ -1,4 +1,4 @@
-.DivMeio{
+.DivMeio {
     position: relative;
     height: 84vh;
     width: 100vw;
@@ -6,7 +6,7 @@
     justify-content: center;
 }
 
-.MeioBaixo{
+.MeioBaixo {
     width: 34vw;
     height: 80vh;
     background-color: rgba(255, 255, 255, 0.94);
@@ -14,7 +14,7 @@
     flex-direction: column;
     align-items: center;
 }
-.TextoIniciar{
+.TextoIniciar {
     font-size: 34px;
     font-weight: bold;
     text-align: center;
@@ -23,7 +23,7 @@
     color: #282828;
 }
 
-.Manter{
+.Manter {
     padding: 1rem 0 1.8rem 0;
     display: flex;
     flex-direction: row;
@@ -31,100 +31,120 @@
     width: 81%;
 }
 
-.Manter input{
+.Manter input {
     width: 1.5vw;
 }
 
-.Manter label{
+.Manter label {
     padding-left: 0.5rem;
     cursor: pointer;
     font-size: 2.5vh;
     color: #646464;
 }
 
-.EsqSenha, .CrieConta{
+.EsqSenha,
+.CrieConta {
     text-decoration: none;
-    color:#646464;
+    color: #646464;
     font-size: 2.5vh;
 }
 
-.BtnLogin{
+.BtnLogin {
     padding: 0.5rem 1.8rem;
     color: #064550;
 }
 
-.BtnLogin span{
+.BtnLogin span {
     margin-left: 0;
 }
 
-.setaAcc{
-    margin-left:10px;
+.setaAcc {
+    margin-left: 10px;
 }
 
-.EsqSenha{
+.EsqSenha {
     padding-top: 1rem;
     position: relative;
 }
 
-.EsqSenha:after{
+.EsqSenha:after {
     content: "";
     position: absolute;
-    background-color: #F06024;
+    background-color: #f06024;
     height: 3px;
     width: 0;
     left: 0;
     bottom: -1px;
     transition: 0.3s;
 }
-.EsqSenha:hover{
+.EsqSenha:hover {
     color: #000;
 }
 
-.EsqSenha:hover:after{
+.EsqSenha:hover:after {
     width: 100%;
 }
 
-.CrieConta{
+.CrieConta {
     position: relative;
 }
 
-.CrieConta:after{
+.CrieConta:after {
     content: "";
     position: absolute;
-    background-color: #F06024;
+    background-color: #f06024;
     height: 3px;
     width: 0;
     left: 0;
     bottom: -1px;
     transition: 0.3s;
 }
-.CrieConta:hover{
+.CrieConta:hover {
     color: #000;
 }
 
-.CrieConta:hover:after{
+.CrieConta:hover:after {
     width: 100%;
 }
-@media only screen and (max-width:480px) {
-    .MeioBaixo{
+@media only screen and (max-width: 480px) {
+    .MeioBaixo {
         width: 80%;
     }
 }
 
-@media only screen and (min-width:481px) {
-
-    @media only screen and (max-width:768px) {
-        .MeioBaixo{
+@media only screen and (min-width: 481px) {
+    @media only screen and (max-width: 768px) {
+        .MeioBaixo {
             width: 80%;
         }
     }
 }
 
-@media only screen and (min-width:769px) {
-
-    @media only screen and (max-width:1200px) {
-        .MeioBaixo{
+@media only screen and (min-width: 769px) {
+    @media only screen and (max-width: 1200px) {
+        .MeioBaixo {
             width: 50%;
         }
     }
+}
+
+.Iniciando {
+    width: 90%;
+    height: auto;
+    padding-top: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Iniciando input {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 1.6rem;
+    margin-top: 0.5rem;
+    background-color: #fff;
+    color: #333;
+    width: 90%;
+    border: 1px solid #f06024;
+    border-radius: 5px;
 }
