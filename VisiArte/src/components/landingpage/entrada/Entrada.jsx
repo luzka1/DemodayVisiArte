@@ -1,6 +1,6 @@
 import styles from "./Entrada.module.css";
-import Moldura from "../../../img/Moldura.png";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom"
 
 function Entrada() {
     
@@ -37,12 +37,12 @@ function Entrada() {
                         </motion.svg>VisiArte</h1>
                         <h3>Conectando artistas de todas as partes</h3>
 
-                        <motion.div className={styles.btnAcessar}
+                        <Link to="/cadastro"><motion.div className={styles.btnAcessar}
                         whileHover={{ scale: [null, 1.2, 1.1] }}
                         whileTap={{ scale: 0.8 }}
                         transition={{ duration: 0.3, type: "spring", stiffness: 400, damping: 17 }}>
-                            Acessar
-                        </motion.div>
+                            Cadastrar
+                        </motion.div></Link>
                         
                     </motion.div>
                     <div className={styles.linhaExterna}></div>

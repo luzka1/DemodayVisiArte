@@ -22,6 +22,7 @@
 .item{
     padding: 2vh;
     border-radius: 1vh;
+    transition: 200ms all;
     cursor: pointer;
 }
 .item:hover{

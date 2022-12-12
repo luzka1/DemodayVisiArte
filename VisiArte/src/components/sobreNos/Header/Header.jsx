@@ -23,9 +23,9 @@ function Header() {
                         </Link>
                     </div>
                     <div className={styles.conteudo}>
-                        <div className={styles.itens}>Como Funcionamos?</div>
-                        <div className={styles.itens}>Contato</div>
-                        <div className={styles.itens}>Sobre Nós</div>
+                        <Link to="/freelancer" className={styles.itens}>Freelancer</Link>
+                        <a href="https://linktr.ee/VisiArte"className={styles.itens}>Contato</a>
+                        <Link to="/sobrenos" className={styles.itens}>Sobre Nós</Link>
                     </div>
                     <Link to="/login"><div className={styles.btnlogin}>Fazer Login</div></Link>
                 </div>

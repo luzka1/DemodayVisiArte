@@ -1,7 +1,7 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
-import Header from "../components/plataforma/reutilizavel/header/Header";
+import Header from "../components/sobreNos/Header/Header";
 import Entrada from "../components/Freelancer/Entrada/Entrada";
 import Categorias from "../components/Freelancer/Categorias/Categorias";
 import Footer from "../components/landingpage/footer/Footer";
