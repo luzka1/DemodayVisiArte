@@ -81,12 +81,12 @@ function TelaDeLogin() {
                             </label>
                         </div>
 
-                        <button type="submit">
-                            <BtnCadastroLogin
-                                // Acessar={Acessar}
-                                className={Styles.BtnLogin}
-                            />
-                        </button>
+                        {/* <button type="submit"> */}
+                        <BtnCadastroLogin
+                            // Acessar={Acessar}
+                            className={Styles.BtnLogin}
+                        />
+                        {/* </button> */}
 
                         {/* <Link to="/" className={Styles.EsqSenha}>
                             Esqueceu a senha?
