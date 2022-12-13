@@ -41,7 +41,7 @@ function Entrada() {
                         whileHover={{ scale: [null, 1.2, 1.1] }}
                         whileTap={{ scale: 0.8 }}
                         transition={{ duration: 0.3, type: "spring", stiffness: 400, damping: 17 }}>
-                            Cadastrar
+                            Cadastre-se
                         </motion.div></Link>
                         
                     </motion.div>
