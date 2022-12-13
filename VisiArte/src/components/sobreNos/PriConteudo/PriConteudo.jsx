@@ -41,15 +41,15 @@ function PriConteudo() {
             >
                 
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+                Com a oportunidade que o Proa nos proporcionou de se conectar com pessoas do nosso ramo de atuação, nós da VisiArte pensamos em como poderiamos levar esse pensamento de conectar pessoas do seu ramo para outra área.
                 </p>
                 <br />
                 <p>
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                E por conta desse pensamento pensamos em como o mercado artístico é desvalorizado em algumas áreas, e por conta disso pensamos em democratizar cada vez mais a arte, por que a arte é algo que todos devem praticar para se expressar cada vez mais de melhor maneira.
                 </p>
                 <br />
                 <p>
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Todos da VisiArte são amantes da cultura artistica e querem um lugar para se expressar e se conectar com os diversos aspectos da arte.
                 </p>
                 </motion.div>
 

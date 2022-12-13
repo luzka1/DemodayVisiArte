@@ -77,18 +77,18 @@ function SegConteudo() {
                         className={styles.lista}
                     >
                         <motion.li variants={itemVariants}>
-                            <div className={styles.titLista}>Comunicação</div>
-                            <div className={styles.contLista}>todos merecem.... Lorem ipsum dolor sit amet, consectetur augiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                            <div className={styles.titLista}>Missão</div>
+                            <div className={styles.contLista}>Ser uma plataforma que conecta, inspira e reúna apreciadores de arte e artistas brasileiros.</div>
                         </motion.li>
 
                         <motion.li variants={itemVariants}>
-                            <div className={styles.titLista}>Diversidade</div>
-                            <div className={styles.contLista}>todos merecem.... Lorem ipsum dolor sit amet, consectetur augiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                            <div className={styles.titLista}>Visão</div>
+                            <div className={styles.contLista}>Visamos um Brasil mais unido em prol da arte nacional.</div>
                         </motion.li>
 
                         <motion.li variants={itemVariants}>
-                            <div className={styles.titLista}>Integração</div>
-                            <div className={styles.contLista}>todos merecem.... Lorem ipsum dolor sit amet, consectetur augiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                            <div className={styles.titLista}>Valores</div>
+                            <div className={styles.contLista}>Comunicação, Integração, Inspiração, transparência.</div>
                         </motion.li>
             
                     </motion.ul>

@@ -1,7 +1,7 @@
 .corpo{
     width: 100vw;
     height: 87vh;
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -16,10 +16,20 @@
                          "c c";
     width: 96%;
     height: 96%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 .publi{
     grid-area: a;
-    background-color: blue;
+    background-color: rgba(0, 0, 0, 0.829);
+}
+
+.comentarios{
+    grid-area: b;
+    background-color: blueviolet;
+}
+
+.escreva{
+    grid-area: c;
+    background-color: rgb(195, 77, 77);
 }
