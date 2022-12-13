@@ -15,6 +15,8 @@ import Freelancer from "./pages/Freelancer";
 import Pesquisa from "./pages/Pesquisa";
 import NaoEncontrado from "./pages/NotFound";
 import Perfil from "./pages/Perfil";
+import TermosDeUso from "./components/TermosDeUso/TermosDeUso";
+import DtlPubli from "./components/DtlPubli/DtlPubli";
 
 // -------------------------------
 
@@ -25,6 +27,8 @@ function App() {
     return (
         <BrowserRouter>
             <Routes>
+                <Route path="/termosDeUso" element = {<TermosDeUso />}/>
+                <Route path="/detalhesDaPubli" element ={<DtlPubli/>} />
                 <Route path="/" element={<LandingPage />} />
                 <Route path="/SobreNos" element={<SobreNos />} />
                 <Route path="/Freelancer" element={<Freelancer />} />

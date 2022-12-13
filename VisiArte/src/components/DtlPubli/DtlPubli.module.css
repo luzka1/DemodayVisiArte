@@ -1,0 +1,25 @@
+.corpo{
+    width: 100vw;
+    height: 87vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.publiComp{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 90% 10%;
+    grid-template-areas: "a b"
+                         "c c";
+    width: 96%;
+    height: 96%;
+    background-color: aquamarine;
+}
+
+.publi{
+    grid-area: a;
+    background-color: blue;
+}
