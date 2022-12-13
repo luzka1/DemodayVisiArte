@@ -15,22 +15,15 @@ const Mensagens = () => {
                 </div>
             </div>
             <div className={styles.mensagens}>
-                <Mensagem tipo={1} msg="lado esquerdo tipo 1" />
-                <Mensagem tipo={2} msg="lado direito tipo 2" />
-                <Mensagem tipo={1} msg="lado esquerdo tipo 1" />
-                <Mensagem tipo={2} msg="lado direito tipo 2" />
-                <Mensagem tipo={1} msg="lado esquerdo tipo 1" />
-                <Mensagem tipo={2} msg="lado direito tipo 2" />
-                <Mensagem tipo={1} msg="lado esquerdo tipo 1" />
-                <Mensagem tipo={2} msg="lado direito tipo 2" />
-                <Mensagem tipo={1} msg="lado esquerdo tipo 1" />
-                <Mensagem tipo={2} msg="lado direito tipo 2" />
-                <Mensagem tipo={1} msg="lado esquerdo tipo 1" />
-                <Mensagem tipo={2} msg="lado direito tipo 2" />
-                <Mensagem tipo={1} msg="lado esquerdo tipo 1" />
-                <Mensagem tipo={2} msg="lado direito tipo 2" />
-                <Mensagem tipo={1} msg="lado esquerdo tipo 1" />
-                <Mensagem tipo={2} msg="lado direito tipo 2" />
+                <Mensagem tipo={1} msg="Oi tudo bem?" />
+                <Mensagem tipo={2} msg="Tudo ótimo e contigo?" />
+                <Mensagem tipo={1} msg="Eu olhei seu perfil e adorei" />
+                <Mensagem tipo={2} msg="Muito Obrigado, agradeço pelo elogio" />
+                <Mensagem
+                    tipo={1}
+                    msg="Eu adoraria criar algum projeto com contigo"
+                />
+                <Mensagem tipo={2} msg="A ideia é muito boa" />
             </div>
             <div className={styles.inputMensagem}>
                 <div>

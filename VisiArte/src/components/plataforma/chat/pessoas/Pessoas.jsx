@@ -8,16 +8,19 @@ const Pessoas = ({ userAtivo }) => {
         <div className={styles.containerPessoas}>
             <div className={styles.logado}> mochileiro </div>
             <div className={styles.pessoas}>
-                <Link to={`/chat/fulano1`}>
-                    <Pessoa nome="fulano1" userAtivo={userAtivo} />
+                <Link to={`/chat/Vinicius Ribeiro Castro`}>
+                    <Pessoa
+                        nome="Vinicius Ribeiro Castro"
+                        userAtivo={userAtivo}
+                    />
                 </Link>
 
-                <Link to={`/chat/ciclano2`}>
-                    <Pessoa nome="ciclano2" userAtivo={userAtivo} />
+                <Link to={`/chat/Marcos Silva Castro`}>
+                    <Pessoa nome="Marcos Silva Castro" userAtivo={userAtivo} />
                 </Link>
 
                 <Link to={`/chat/beltrano3`}>
-                    <Pessoa nome="beltrano3" userAtivo={userAtivo} />
+                    <Pessoa nome="Alex Rocha castro" userAtivo={userAtivo} />
                 </Link>
             </div>
         </div>
