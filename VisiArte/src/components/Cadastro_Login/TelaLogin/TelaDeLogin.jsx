@@ -1,14 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { URL_API } from "../../../API";
 import BtnCadastroLogin from "../BtnCadastroLogin/BtnCadastroLogin";
 import Styles from "./TelaDeLogin.module.css";
 
 function TelaDeLogin() {
+    const navigate = useNavigate();
     const [usuario, setUsuario] = React.useState("");
     const [senha, setSenha] = React.useState("");
-
+    const [infoUsuario, setInfoUsuario] = React.useState("");
+    const [erro, setErro] = React.useState("");
     const data = {
         usuarioLogin: usuario,
         senha: senha,
@@ -16,11 +18,21 @@ function TelaDeLogin() {
 
     function fazerLogin(e) {
         e.preventDefault();
-        axios
-            .post(`${URL_API}/usuarios/login`, JSON.stringify(data))
-            .then((response) => {
-                console.log(response.data);
+        axios.post(`${URL_API}/usuario/login`, data)
+          .then(function (response) {
+              setInfoUsuario(JSON.parse(response.data));
+     
+            localStorage.setItem("usuarioLogado",{
+                id : infoUsuario._id,
+                nome_usuario : infoUsuario.nome_usuario,
+                email : infoUsuario.email
             });
+            
+            navigate("/feed");
+          })
+          .catch(function (error) {
+            setErro("Os dados inseridos estão incorretos");
+          });
     }
 
     return (
@@ -29,6 +41,7 @@ function TelaDeLogin() {
                 <div className={Styles.DivMeio}>
                     <div className={Styles.MeioBaixo}>
                         <h1 className={Styles.TextoIniciar}>Conectar-se</h1>
+                        <span style={{color:"red"}}>{erro}</span>
                         <div className={Styles.Iniciando}>
                             <input
                                 value={usuario}
@@ -36,8 +49,8 @@ function TelaDeLogin() {
                                     setUsuario(target.value)
                                 }
                                 required
-                                type="text"
-                                placeholder="E-MAIL OU USUARIO"
+                                type="email"
+                                placeholder="E-MAIL"
                                 className={Styles.Nome}
                             />
                         </div>
