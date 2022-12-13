@@ -63,7 +63,7 @@
 }
 
 .controlador div {
-    background-color: #0072EE;
+    background-color: #49B3BC;
     height: 100%;
 }
 
@@ -105,7 +105,7 @@
 }
 
 .btn button {
-    border: 0.3vh solid rgb(75, 75, 75);
+    border: 0.3vh solid #49B3BC;
     font-size: 3vh;
     padding: 2.5%;
     border-radius: 0.5vh;
@@ -115,9 +115,9 @@
 }
 
 .btn button:hover {
-    color: #fff;
-    background-color: #0072EE;
-    border-color: #fff;
+    background-color: #49B3BC;
+    color: #FFF;
+    transition: 200ms all;
     cursor: pointer;
 }
 

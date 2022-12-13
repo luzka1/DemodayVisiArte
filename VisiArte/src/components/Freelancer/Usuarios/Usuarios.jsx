@@ -1,7 +1,5 @@
 import styles from "./Usuarios.module.css";
-import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
-import foto from "../../../img/background.jpg";
 import data from "../../../data/usuarios.json";
 
 function Usuarios() {

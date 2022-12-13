@@ -2,27 +2,31 @@
     display: flex;
     flex-wrap: wrap;
     padding: 5%;
-    gap: 2vw;
+   gap:5vh 10vh;
+   justify-content: center;
 }
 .box{
-    background-color: #F1ECFC;
+    background-color: #ffffff;
     color: rgb(0, 0, 0);
-    width: 28vw;
+    width: 25vw;
     box-shadow: 0 0 1vh 0vh rgba(59, 59, 59, 0.37);
 }
 .foto{
     width: 100%;
     height: 30vh;
-    border: 1vw solid #F1ECFC;
+    padding: 1vh;
+    border: 2vh solid #fff;
 }
 .foto img{
     width: 100%;
     height: 100%;
+    clip-path: circle();
 }
 .nome{
     padding: 1% 0 1% 0;
-    font-size: 3vh;
+    font-size: 3.5vh;
     text-align: center;
+    color: #064550;
 }
 .comentario{
     padding: 3% 2% 3% 2%;
@@ -30,7 +34,7 @@
     width: 90%;
     text-align: center;
     margin: 0 auto;
-    font-family: poppins-l;
+    
 }
 .pontuacao{
     display: flex;

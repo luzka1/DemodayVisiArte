@@ -12,11 +12,12 @@ function Cadastro1({formData, setFormData}) {
             <div className={styles.formulario}>
 
                 <form >
-                    <input name="email" type="text" placeholder="E-MAIL" 
+                    <input name="email" type="email" placeholder="E-MAIL" 
+                    required
                      value={formData.email}
                      onChange={(event ) => 
                      setFormData({...formData, email:event.target.value})}
-                     required/>
+                     />
                      
                     <div className={styles.checkbox}>
                         <input type="checkbox" />

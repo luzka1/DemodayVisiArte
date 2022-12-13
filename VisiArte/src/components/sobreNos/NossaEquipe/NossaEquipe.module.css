@@ -104,7 +104,8 @@
 }
 .email{
     text-align: center;
-    font-size: 2vh;
+    font-size: 1.vh;
+    
 }
 @media screen and (max-width:480px){
     .box{
