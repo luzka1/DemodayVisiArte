@@ -18,21 +18,22 @@ function TelaDeLogin() {
 
     function fazerLogin(e) {
         e.preventDefault();
-        axios.post(`${URL_API}/usuario/login`, data)
-          .then(function (response) {
-              setInfoUsuario(JSON.parse(response.data));
-     
-            localStorage.setItem("usuarioLogado",{
-                id : infoUsuario._id,
-                nome_usuario : infoUsuario.nome_usuario,
-                email : infoUsuario.email
+        axios
+            .post(`${URL_API}/usuario/login`, data)
+            .then(function (response) {
+                setInfoUsuario(JSON.parse(response.data));
+
+                localStorage.setItem("usuarioLogado", {
+                    id: infoUsuario._id,
+                    nome_usuario: infoUsuario.nome_usuario,
+                    email: infoUsuario.email,
+                });
+
+                navigate("/feed");
+            })
+            .catch(function (error) {
+                setErro("Os dados inseridos estão incorretos");
             });
-            
-            navigate("/feed");
-          })
-          .catch(function (error) {
-            setErro("Os dados inseridos estão incorretos");
-          });
     }
 
     return (
@@ -41,7 +42,7 @@ function TelaDeLogin() {
                 <div className={Styles.DivMeio}>
                     <div className={Styles.MeioBaixo}>
                         <h1 className={Styles.TextoIniciar}>Conectar-se</h1>
-                        <span style={{color:"red"}}>{erro}</span>
+                        <span style={{ color: "red" }}>{erro}</span>
                         <div className={Styles.Iniciando}>
                             <input
                                 value={usuario}

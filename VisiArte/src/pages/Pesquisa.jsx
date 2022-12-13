@@ -6,10 +6,10 @@ import postagens from "../data/postagens.json";
 import { URL_SITE } from "../API";
 
 function Pesquisa({ textoPesquisa, setTextoPesquisa, usuarioAtual }) {
-    if (!localStorage.getItem("usuarioLogado")) {
-        window.location.href = `${URL_SITE}/login`
-    }
-    
+    // if (!localStorage.getItem("usuarioLogado")) {
+    //     window.location.href = `${URL_SITE}/login`
+    // }
+
     let { pesquisa } = useParams();
     return (
         <>

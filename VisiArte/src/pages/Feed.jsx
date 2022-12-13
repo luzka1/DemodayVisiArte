@@ -11,10 +11,9 @@ function Feed({
     usuarioAtual,
     setUsuarioAtual,
 }) {
-
-    if (!localStorage.getItem("usuarioLogado")) {
-        window.location.href = `${URL_SITE}/login`
-    }
+    // if (!localStorage.getItem("usuarioLogado")) {
+    //     window.location.href = `${URL_SITE}/login`
+    // }
 
     var sugestoes = [];
     var usuAtual = [];
