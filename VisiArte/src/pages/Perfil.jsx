@@ -7,10 +7,10 @@ import { useParams } from "react-router-dom";
 import { URL_SITE } from "../API";
 
 const Perfil = ({ setTextoPesquisa, textoPesquisa, usuarioAtual }) => {
-    if (!localStorage.getItem("usuarioLogado")) {
-        window.location.href = `${URL_SITE}/login`
-    }
-    
+    // if (!localStorage.getItem("usuarioLogado")) {
+    //     window.location.href = `${URL_SITE}/login`
+    // }
+
     let { usuario } = useParams();
     let postagensFiltradas = [];
 
