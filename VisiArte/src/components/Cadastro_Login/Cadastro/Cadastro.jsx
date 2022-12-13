@@ -55,7 +55,7 @@ function Cadastro() {
     });
 
     return (
-        <form action="">
+        <form onSubmit={(e) => e.preventDefault()}>
             <div className={styles.container}>
                 <div className={styles.innerContainer}>
                     <div className={styles.esquerda}>
@@ -86,10 +86,10 @@ function Cadastro() {
                                         page === 0
                                             ? "25%"
                                             : page === 1
-                                                ? "50%"
-                                                : page === 2
-                                                    ? "75%"
-                                                    : "100%",
+                                            ? "50%"
+                                            : page === 2
+                                            ? "75%"
+                                            : "100%",
                                 }}
                             ></div>
                         </div>
