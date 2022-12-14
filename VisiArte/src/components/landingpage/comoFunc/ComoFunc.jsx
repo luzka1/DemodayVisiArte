@@ -37,7 +37,7 @@ function ComoFunc() {
                             }} >
                         
                             <text>
-                                Somos uma plataforma voltada a adjuar os{" "}
+                                Somos uma plataforma voltada a ajudar os{" "}
                                 <text className={styles.laranja}>artistas</text>{" "}
                                 de todas as áreas a criarem{" "}
                                 <text className={styles.laranja}>conexões</text>{" "}
@@ -45,7 +45,7 @@ function ComoFunc() {
                                 <text className={styles.laranja}>divulgar</text>{" "}
                                 os seus projetos, além de ter uma{" "}
                                 <text className={styles.laranja}>
-                                    área exclusia
+                                    área exclusiva
                                 </text>{" "}
                                 para cursos.
                             </text>

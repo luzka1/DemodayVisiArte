@@ -33,7 +33,7 @@ function SliderPrin() {
                     <motion.div ref={carousel} className={styles.carousel}>
                         <motion.div
                             drag="x"
-                            dragConstraints={{ right: 0, left: -2800 }}
+                            dragConstraints={{ right: 0, left: -2500 }}
                             className={styles.innerCarousel}
                         >
                             {imgCarousel.map((image) => {

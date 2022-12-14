@@ -21,7 +21,9 @@ function DtlPubli(){
                     </div>
 
                     <div className={styles.comentarios}>
-                        
+                        <div className={descricao}>
+                            
+                        </div>
                     </div>
 
                     <div className={styles.escreva}>

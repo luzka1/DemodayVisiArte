@@ -115,18 +115,7 @@ function Cadastro() {
                                         onClick={() => {
                                             if (page == FormTitles.length - 1) {
                                                 cadastrarUsuario({
-                                                    nome_usuario: formData.user,
-                                                    nome_completo:
-                                                        "usuario fulano da silva",
-                                                    bio: "essa é a biografia do usuario",
-                                                    data_nascimento:
-                                                        "01/10/2020",
-                                                    email: formData.email,
-                                                    senha: "testando",
-                                                    foto_perfil: "ewrfewrf",
-                                                    foto_capa: "ergege",
-                                                    quant_seguidores: 0,
-                                                    quant_seguindo: 0,
+                                                    alert
                                                 });
                                             } else {
                                                 setPage(
